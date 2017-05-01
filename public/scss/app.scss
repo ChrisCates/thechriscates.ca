@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  margin: 0px;
+  font-family: Source Sans Pro;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  color: #545454;
+  background: #F9F9F9;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+*.easing {
+  transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+iframe {
+  margin: 30px 0;
+}
+
+$g1: #F9F9F9;
+$g2: #F4F4F4;
+$g3: #CBCBCB;
+$b1: #327CCB;
+
+body {
+  max-width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  background-color: $g1;
+  color: #545454;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+div.container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 15px;
+}
+
+div.sub-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  a {
+    padding: 15px 15px 15px 0;
+    text-decoration: none;
+    color: $b1;
+    font-size: 24px;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $b1;
+}
+
+div.content {
+  div.item {
+    padding: 15px 0;
+    h2, p {
+      margin: 0 0 5px 0;
+    }
+    p {
+      font-size: 18px;
+    }
+    div.tags {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      span {
+        background: white;
+        color: $b1;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+      }
+    }
+    div.button {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      a {
+        margin: 5px;
+        color: white;
+        background: $b1;
+        text-decoration: none;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+div.wrapper {
+  margin: 15px auto;
+}
