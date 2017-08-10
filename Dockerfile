@@ -1,33 +1,40 @@
-FROM trenpixster/elixir
+# Set the Docker image you want to base your image off.
+# I chose this one because it has Elixir preinstalled.
+FROM trenpixster/elixir:1.3.0
 
-MAINTAINER Vladimir Reshetnikov <zepplock@vova.org>
+# Setup Node - Phoenix uses the Node library `brunch` to compile assets.
+# The official node instructions want you to pipe a script from the
+# internet through sudo. There are alternatives:
+# https://www.joyent.com/blog/installing-node-and-npm
+RUN curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash - && apt-get install -y nodejs
 
-ENV BUILD_DATE 2016-11-16
+# Install other stable dependencies that don't change often
 
-
-#uncomment this if you use Postgres
-#RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
-#    apt-get update && \
-#    DEBIAN_FRONTEND=noninteractive \
-#    apt-get install -y --force-yes postgresql-client-9.3
-
-ENV MIX_ENV prod
-ENV PORT 4001
-EXPOSE 4001
-
+# Compile app
 RUN mkdir /app
-ADD . /app
-
 WORKDIR /app
 
-RUN mix local.rebar --force
-RUN mix local.hex --force
+# Install Elixir Deps
+ADD mix.* ./
+RUN MIX_ENV=prod mix local.rebar
+RUN MIX_ENV=prod mix local.hex --force
+RUN MIX_ENV=prod mix deps.get
 
-RUN mix deps.get
-RUN mix compile
-RUN mix phoenix.digest
+# Install Node Deps
+ADD package.json ./
+RUN npm install
 
-COPY ./docker-entrypoint.sh /
-RUN chmod +x /docker-entrypoint.sh
+# Install app
+ADD . .
+RUN MIX_ENV=prod mix compile
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
+# Compile assets
+RUN NODE_ENV=production node_modules/brunch/bin/brunch build --production
+RUN MIX_ENV=prod mix phoenix.digest
+
+# Exposes this port from the docker container to the host machine
+EXPOSE 4000
+
+# The command to run when this image starts up
+CMD MIX_ENV=prod mix ecto.migrate && \
+  MIX_ENV=prod mix phoenix.server
