@@ -8,7 +8,7 @@
     <p>
       It's definitely crossed every millenial Computer Scientist minds: How do we make a cryptographic
       function using Emojis? Well I'm here to explain exactly how by using the same design principles as
-      SHA-256 and SHA-2 as a demonstration of emoji cryptography.
+      SHA-256 as a demonstration of emoji cryptography.
     </p>
   </a>
 

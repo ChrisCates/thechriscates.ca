@@ -21,7 +21,7 @@ RUN MIX_ENV=prod mix local.hex --force
 RUN MIX_ENV=prod mix deps.get
 
 # Install Node Deps
-ADD package.json ./
+ADD assets/package.json ./
 RUN npm install
 
 # Install app
@@ -37,4 +37,4 @@ EXPOSE 4000
 
 # The command to run when this image starts up
 CMD MIX_ENV=prod mix ecto.migrate && \
-  MIX_ENV=prod mix phoenix.server
+  MIX_ENV=prod mix phx.server
