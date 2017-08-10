@@ -3,12 +3,12 @@
   <h2>Here's some random pages about computer stuff</h2>
 
   <a href="/emoji_hashes" class="link">
-    <h3>Emoji Hashes similar to SHA-256</h3>
+    <h3>Emoji Hashes</h3>
     <h3>August 10th, 2017</h3>
     <p>
       It's definitely crossed every millenial Computer Scientist minds: How do we make a cryptographic
-      function using Emojis? Well I'm here to explain exactly how by using the same design principles as
-      SHA-256 as a demonstration of emoji cryptography.
+      function using Emojis? Well I'm here to explain exactly how by using basic cryptographic principles
+      to create a custom emoji hash.
     </p>
   </a>
 

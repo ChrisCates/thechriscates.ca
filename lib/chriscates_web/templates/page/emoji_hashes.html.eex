@@ -1,0 +1,57 @@
+<div class="content">
+  <h2>Emoji Hashes</h2>
+
+  <p>
+    Admit it. You've thought about cryptographic hashes in emoji form as a Computer Scientist.
+    Well today, I'm making that a reality by taking the same design principles as DJB2 and
+    applying it to an Emoji like Cryptographic Hash. There will be several things we will consider
+    such as collision checking and overall performance to hash each signature.
+  </p>
+
+  <h2>Bitshifts are actually very useful in cryptography.</h2>
+
+  <p>
+    It's actually an essential part of any methodology to use Bitshifts to create hashes.
+    In our case, we will be making "Emoji Shifts". Fortunately, given how we programmed bitwise
+    operations in
+    <a href="https://chriscates.ca/bits_bytes_bitwise" target="_blank">Bits, Bytes and Bitwise Operations</a>
+    we can very easily repurpose the same functions for "Emoji Shifts".
+  </p>
+
+  <h2>How do we replicate the Endian structure of ASCII with Emojis and Emoji Shifts?</h2>
+
+  <p>
+    The key here is that we simply assign emojis to an array and have it represent the indices in
+    the array. This makes it easy to replicate the same bitwise operations seen in SHA-2.
+  </p>
+
+  <p>
+    Here's the set of Emojis we are going to use. It doesn't really matter if we have the same amount of
+    characters as ASCII, as long as we can create unique hashes.
+  </p>
+
+  <p>
+    😀, 😃, 😄, 😁, 😆, 😅, 😂, 🤣, ☺️, 😊, 😇, 🙂, 🙃, 😉, 😌, 😍, 😘, 😗, 😙, 😚, 😋,
+    😜, 😝, 😛, 🤑, 🤗, 🤓, 😎, 🤡, 🤠, 😏, 😒, 😞, 😔, 😟, 😕, 🙁, ☹️, 😣, 😖, 😫, 😩,
+    😤, 😠, 😡, 😶, 😐, 😑, 😯, 😦, 😧, 😮, 😲, 😵, 😳, 😱, 😨, 😰, 😢, 😥, 🤤, 😭, 😓,
+    😪, 😴, 🙄, 🤔, 🤥, 😬, 🤐, 🤢, 🤧, 😷, 🤒, 🤕, 😈, 👿, 👹, 👺, 💩, 👻, 💀, ☠️, 👽,
+    👾, 🤖, 🎃, 😺, 😸, 😹, 😻, 😼, 😽, 🙀, 😿, 😾, 👐, 🙌, 👏, 🙏, 🤝, 👍, 👎, 👊, ✊,
+    🤛, 🤜, 🤞, ✌️, 🤘, 👌, 👈, 👉, 👆, 👇, ☝️, ✋, 🤚, 🖐, 🖖, 👋, 🤙, 💪, 🖕, ✍️, 🤳,
+    💅, 🖖, 💄, 💋, 👄, 👅, 👂, 👃, 👣, 👁, 👀, 🗣, 👤, 👥, 👶, 👦, 👧, 👨, 👩, 👱
+  </p>
+
+  <p>Here's the code we used to demonstrate an Emoji hash. Pretty neat huh?</p>
+
+  <script src="https://gist.github.com/ChrisCates/b4c0c54aadff9195ea71d83c65d5af2d.js"></script>
+
+  <p>
+    While this may look all fine and dandy. In reality, there are potentially SEVERAL problems
+    with this cryptographic hash. The major one is collisions (does it collide with another encrypted message?).
+    The second being security... (Are messages easily reverse engineered)?
+  </p>
+
+  <p>Regardless, we made an Emoji based Crypto Hash. You can review all the code <a href="https://github.com/ChrisCates/SHA-Emoji" target="_blank">here.</a>
+
+  <p>We will be future proofing this base hash with collision checking tomorrow!</p>
+
+</div>
