@@ -1,0 +1,67 @@
+<div class="content">
+  <h2>Computer Science is fun and magical.</h2>
+  <h2>Here's some random pages about computer stuff</h2>
+
+  <a href="/bits_bytes_bitwise" class="link">
+    <h3>Bits, Bytes and Bitwise Operations</h3>
+    <h3>August 9th, 2017</h3>
+    <p>
+      Ever wondered what it's like to write bitwise operators from scratch? Well, I'm going to be writing
+      all the bitwise operators from scratch in Node.js abstractions.
+    </p>
+  </a>
+
+  <h2>Q&amp;A with Chris Cates</h2>
+  <h3>1. What's your favourite language?</h3>
+  <p>
+    Kotlin by far. When Google switched "func" in Golang to "fun" in Kotlin. You knew they were serious
+    about improving the UX for their developers. Don't get me wrong... The cost abstractions and performance
+    of Golang with it's overall performance is great considering it's UX... By no means perfect though,
+    you will never be able to write the same performance abstractions in C. Kotlin on the otherhand has
+    fundamentally improved itself on the core "fun" principles of Golang while also
+    lending itself to a low cost abstraction syntax. Check it out
+    <a href="https://kotlinlang.org/docs/reference/idioms.html" target="_blank">here.</a>
+  </p>
+
+  <h3>2. What are your thoughts on the Brainfuck language?</h3>
+  <p>
+    More inexperienced developers generally have a negative opinion about Brainfuck... However Brainfuck
+    is not really a "Brain fuck" to me... It's actually an enjoyable development experience despite not being
+    DRY. Overall, I think it lends itself as a great teaching tool about fundamental computer science concepts
+    so don't dismiss it! However as a work tool... It's definitely not useful... Might make more sense to write
+    core endian and syntax structures in binary instead if you want to go that route.
+  </p>
+
+  <h3>3. Why are you not a fan of Node.js for back end infrastructure anymore?</h3>
+  <p>
+    I used to love Node.js for REST/Socket APIs. However, I've heavily drifted away from Node.js in favour
+    of Elixir for most production apps and if necessary C/C++ for performance intensive networking operations.
+    I've been debating putting Rust in my workflow... But Rust is a very gruelling language to write well
+    and Elixir makes it so easy to write clean performant code.
+  </p>
+
+  <p>
+    However, there are a few key fundamental reasons why I left Node.js for REST and Sockets. First, its
+    cost abstractions as designed from it's core syntax is extremely high. This should be obvious given it
+    being dynamically typed, lack of pointers and no signs of semaphores or mutex like concurrency primitives.
+    Of course, you can still do bitwise operations in Node.js... But, even then, those are very small perks
+    that don't really help the case for the language in REST APIs. Second, while being coveted for socket
+    based applications (Socket.io is an extremely easy abstraction), I still find performance a huge bottleneck
+    for the language. Overall, the cost abstraction of the core language design essentially makes it
+    impossible for it to be a performance based language.
+  </p>
+
+  <h3>4. What are you working on these days?</h3>
+  <p>
+    I've been working on a lot of cryptographic based studies, which in turn puts me back to fundamental
+    computer science concepts. A lot of the posts on my website are going to be about learning basic
+    concepts like bitwise operands and how to make basic hashes. These little projects are for a bigger
+    project in the heavily sought out blockchain space... While I was heavily interested in blockchain initially,
+    it really is kind of meh to me now. Overall, I think there are a lot of great use cases for blockchain
+    however, I see a lot of misuse of the technology principles which harms it's ecosystem greatly...
+    And let's not get started on the oversaturation of pointless coins... As much as I enjoy Dennis
+    Rodman entertaining the general public with Potcoin. Fundamentally coins like Potcoin serve very little
+    purpose to the current landscape.
+  </p>
+
+</div>

@@ -1,0 +1,84 @@
+<div class="content">
+  <h2>Bits, Bytes and Bitwise Operations</h2>
+  <p>
+    Ever wondered what it's like to write bitwise operations from scratch? Neither did I... until
+    recently when I found them very useful for doing cryptographic hashes. Of course, to better internalize
+    these concepts... I wrote them from scratch. I could've potentially have written them in Assembly or Binary,
+    that would've been far easier. In that case though, that defeats the purpose of learning how to do it in an imperative language...
+    Since most of my work is in an imperative (sometimes functional) paradigm.
+  </p>
+
+  <p>
+    Let's observe the bitwise operations possible with any bit based endian structure.
+  </p>
+
+  <h3 class="margin-bottom">
+    1. AND (&amp;) - Returns ones for each bit in a comparison of two endian structures that both have ones at the same position.
+  </h3>
+
+  <h3 class="margin-bottom">
+    2. OR (|) - Returns ones for each bit in a comparison of two endian structures that atleast has one one at the same position.
+  </h3>
+
+  <h3 class="margin-bottom">
+    3. XOR (^) - Returns ones for each bit in a comparison of two endian structures that either one has a one but not both at the same position.
+  </h3>
+
+  <h3 class="margin-bottom">
+    4. Left Shift (<<) - Shifts the first endian structure N amount of bits to the left based on the integer value of
+    the second value, creating zeroes in their original place.
+  </h3>
+
+  <h3 class="margin-bottom">
+    5. Right Shift [Sign-Propagating] (>>) - Shifts the first endian structure N amount of bits to the right based on the integer value of
+    the second value, also discarding bits shifted off.
+  </h3>
+
+  <h3 class="margin-bottom">
+    6. Right Shift [Zero-Fill] (>>>) - Shifts the first endian structure N amount of bits to the right based on the integer value of
+    the second value, also discarding bits shifted off while also creating zeroes in their place.
+  </h3>
+
+  <h3 class="margin-bottom">
+    7. Not (~) - Inverts the endian data structure, can only be used on one data structure at a time.
+  </h3>
+
+  <p>
+    These seem pretty self explanatory to anyone with fair bit of experience in Computer Science... Let's ask
+    some rudimentary questions first though about our experiment.
+  </p>
+
+  <h2>Bitwise and 32 bit Endianess...</h2>
+
+  <p>
+    Typically Bitshifts are done assuming 32 bit Endian structures in JS... However, in the case of my experiment.
+    I enable any sized endian structure to work a bitshift. This is merely just for flexibility purposes and
+    allowing left and right shifts greater then the original endian data structure, causing it to be zero in
+    all edge cases where N > then the original data structure in left shifts and zero fill right shifts and
+    1 when dealing with sign propagating right shifts dealing with negative numerical values.
+  </p>
+
+  <h2>Two Right Shifts? Why?</h2>
+
+  <p>
+    The difference between Sign Propagating and Zero Fill Right Shifts is that Zero-Fill Shifts always produce
+    a positive number (assuming any numerical endian structure). Sign propogating preserves the leftmost bits
+    value (1 or 0) and reproduces it for each respective value thereafter. These two distinct bit shifts were
+    created in the case scenario of preserving negative numerical values when rotating bits around.
+  </p>
+
+  <h2>Now for some code! Yay!</h2>
+
+  <script src="https://gist.github.com/ChrisCates/8b6d412f3c23585f94c328ac4cb4b09f.js"></script>
+
+  <p>
+    Now you know how to write Bitwise operations in Javascript!</p>
+  </p>
+
+  <p>
+    Hope you learned something! If you want to review the repository with Unit Tests included check this
+    <a href="https://github.com/ChrisCates/bits_bytes_bitwise" target="_blank">repository</a> out.
+    I'll be posting about Emoji Cryptographic Hashes tomorrow!
+  </p>
+
+</div>
