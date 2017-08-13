@@ -1,0 +1,30 @@
+<div class="content">
+  <h2>Emoji Hashes</h2>
+
+  <p>Revised from the original content on August 10th, 2017.</p>
+  <p>Read the original version <a href="/emoji_hashes_old">here</a>.</p>
+
+  <p>
+    Admit it. You've thought about cryptographic hashes in emoji form as a Computer Scientist.
+    Well today, I'm making that a reality by taking a SHA-256 Algorithm and
+    converting it into emoji form.
+  </p>
+
+  <p>
+    Originally I wrote a fair bit about Bitshifts and Endian data structures, but, in reality we can simplify the
+    process greatly by just mimicing existing cryptographic hashes with emojis.
+  </p>
+
+  <p>
+    The key here is to just index a list of emojis. Then take a cryptographic hash and loop through each character
+    converting them into their numerical values in ASCII format. Then associating it with the index in the emoji array.
+  </p>
+
+
+  <p>Here's the code we used to demonstrate an Emoji hash. Pretty neat huh? Much simpler then the original too.</p>
+
+  <script src="https://gist.github.com/ChrisCates/b4c60be6dff2b4c1ee09e797d0a8d1d6.js"></script>
+
+  <p>You can review all the code <a href="https://github.com/ChrisCates/SHA-Emoji" target="_blank">here.</a>
+
+</div>

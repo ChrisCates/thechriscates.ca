@@ -19,6 +19,7 @@ defmodule ChriscatesWeb.Router do
     get "/", PageController, :index
     get "/bits_bytes_bitwise", PageController, :bits_bytes_bitwise
     get "/emoji_hashes", PageController, :emoji_hashes
+    get "/emoji_hashes_old", PageController, :emoji_hashes_old
   end
 
   # Other scopes may use custom stacks.

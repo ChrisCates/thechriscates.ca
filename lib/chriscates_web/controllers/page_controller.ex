@@ -10,7 +10,11 @@ defmodule ChriscatesWeb.PageController do
   end
 
   def emoji_hashes(conn, _params) do
-    render conn, "emoji_hashes.html", title: "Emoji Hashes"
+    render conn, "emoji_hashes2.html", title: "Emoji Hashes"
+  end
+
+  def emoji_hashes_old(conn, _params) do
+    render conn, "emoji_hashes.html", title: "Emoji Hashes (Old)"
   end
 
 end
