@@ -17,4 +17,8 @@ defmodule ChriscatesWeb.PageController do
     render conn, "emoji_hashes.html", title: "Emoji Hashes (Old)"
   end
 
+  def emojichain(conn, _params) do
+    render conn, "emojichain.html", title: "Emoji Blockchain Tech in 50 lines of code"
+  end
+
 end

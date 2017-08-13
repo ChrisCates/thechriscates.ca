@@ -2,6 +2,16 @@
   <h2>Computer Science is fun and magical.</h2>
   <h2>Here's some random pages about computer stuff</h2>
 
+  <a href="/emojichain" class="link">
+    <h3>Emoji Blockchain Tech in 50 lines of code</h3>
+    <h3>August 13th, 2017</h3>
+    <p>
+      Imagine a world where your blockchains are encrypted with Emojis... Well, I created the
+      base technology for such a thing and you can learn more about it here. The codebase for a
+      functional (peerless) blockchain is only 50 lines of code in Node.js!
+    </p>
+  </a>
+
   <a href="/emoji_hashes" class="link">
     <h3>Emoji Hashes</h3>
     <h3>August 10th, 2017 (Revised August 13th)</h3>

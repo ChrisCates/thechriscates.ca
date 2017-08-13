@@ -1,0 +1,45 @@
+<div class="content">
+  <h2>Emoji Blockchain Tech in 50 lines of code</h2>
+
+  <p>
+    There's a popular blog post floating around called
+    <a href="https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54" target="_blank">
+      A blockchain in 200 lines of code
+    </a>.
+    While it is a great representation of blockchain tech. I've built a trimmed down PEERLESS, but persistent
+    blockchain tech that uses emoji cryptography. There are a few things we need to be accountable for... but
+    in reality, blockchain technology is very simple... It's just a chain of "blocks" which is essentially just hashed
+    data that verifies it's chain based on it's previous block.
+  </p>
+
+  <h2>So where's the code?</h2>
+  <p>
+    By the time you probably check out the
+    <a href="https://github.com/ChrisCates/emojichain" target="_blank">
+      emojichain
+    </a>
+    repo. It will be drastically different and far more complex.
+    So here's a gist of the basic implementation of a blockchain. I certainly HOPE that this clears up A LOT of
+    things about how blockchain works. It's a lot simpler then you think.
+  </p>
+
+  <script src="https://gist.github.com/ChrisCates/0fb649a2dc5db4d9db9f11c1d2be41e2.js"></script>
+
+  <p>
+    Now there's a part where it says it will "resync" the blockchain. Since this is a single peer blockchain
+    that's essentially useless. However, later down the line. We will want to make sure that all peers are in sync
+    via sockets (or REST doesn't really matter). All we really have to do is just verify that the previous block
+    contains the same index and hash that the new block is being added to in the blockchain.
+  </p>
+
+  <h2>Persisting Blockchain and Databases</h2>
+
+  <p>
+    There's plenty of ways to store data in databases. In all reality I'll probably end up using something like Redis
+    (or revise my SafariQL project to optimize traversing JSON data). I think a lot of the DB solutions end up being RAM
+    based, and if the blockchain gets extra big. This can be a problem (DB will lock up if not enough RAM to store entire
+    blockchain in RAM). In all reality things like "BigChain DB" are not production ready and merely just PoC... You're
+    probably better off with Redis, Postgres or even MongoDB as a storage solution.
+  </p>
+
+</div>
