@@ -1,0 +1,28 @@
+<div class="content">
+  <h2>Non-Atomic Ring Buffers in Node.js</h2>
+  <p>
+    What? Were you honestly expecting a lock-free atomic ring buffer to be built in pure node.js?
+    Yea keep dreaming. Anyway, recently came across the need for a Ring Buffer in JS. Of course,
+    I would LOVE to be able to leverage it in atomic form (for those who have no clue the difference
+    between <a href="http://preshing.com/20130618/atomic-vs-non-atomic-operations/" target="_blank">
+    atomic versus non-atomic</a>). We're kind of stuck with what V8 gives us so...
+  </p>
+  <h2>What's the use case for Ring Buffers?</h2>
+  <p>
+    Imagine you're traversing a large amount of data... Often times you really don't need to store
+    a lot of the goobly gook you're looking at, and sometimes there's so much data it makes your computer slow.
+    This is where Ring Buffers come in ultra handy, by enabling you to traverse data pretty fast without actually
+    having to store most of the data.
+  </p>
+  <h2>Ring Buffers sound fancy and complicated.</h2>
+  <p>
+    They aren't though... Super simple concept and paradigm... Just a very useful data structure with a lot of use
+    cases. I made this implementation of a ring buffer in 17 lines of code... Trust... It's super simple.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/a4ae88ebac8eb93507a7f735207c1c08.js"></script>
+  <p>
+    Pretty much all you need to do is specify the size of the... uhh... array... (Often times you might want to put it in a
+    stack or heap in other languages, but derp, Node.js...). Then you can add elements to the array and it'll overwrite
+    elements that no longer belong in the array if we push more elements then there actually are allowed to be in the Ring Buffer.
+  </p>
+</div>

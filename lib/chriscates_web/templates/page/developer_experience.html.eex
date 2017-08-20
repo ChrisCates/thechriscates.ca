@@ -1,0 +1,46 @@
+<div class="content">
+  <h2>Developer Experience Matters</h2>
+
+  <p>
+    I know most programmers would detest the thought of programming their projects in binary or assembly.
+    For good reason too! The developer experience is awful! You have to code your data types from scratch
+    and be accountable for a plethora of different abstraction problems that a traditional imperative or
+    functional language solves for you. But are the idioms of Python, Ruby, Javascript and Elixir really
+    the best developer experience we could ask for?
+  </p>
+
+  <p>
+    Now a lot of developers always tout about performance (I did too, and still do, but more from the data structures
+    and cost abstraction side, less focus on a core languages design). For example, Python is riddled with obvious design flaws...
+    I mean sure there is a "multiprocessing" package...
+    Do you actually work with semaphores or mutexes though? Hah, nope... and good luck trying...
+  </p>
+
+  <p>
+    There's a neat little benchmarks game by Debian that showcases performance of certain arithmetic in specific languages
+    <a href="http://benchmarksgame.alioth.debian.org/">here</a>. While this is a great indicator of general performance
+    of specific languages... It's not really helpful in understanding why the fuck Python and Node.js are so slow.
+    I want to explain why these languages are slow as balls so you can understand why they suck (from a performance
+    perspective, not a developer experience perspective, they rock from that perspective).
+  </p>
+
+  <h2>D-I-Y Idiomatic Code</h2>
+
+  <p>
+    First let's look at one of the most basic and well reknowned data types known to Computer Science...
+    The "linked list". Most script kiddies will probably be only familiar with "arrays" or "lists"... From a
+    time complexity perspective. Arrays are much more computationally expensive in pretty much all use cases...
+    Why though? Let's pose some simple questions from the core design of an Array (in comparison to a single linked list).
+  </p>
+
+  <h3>Array Properties</h3>
+
+  <p>- Array sizes are fixed.</p>
+  <p>- Insertion/Deletion requires you to shift and reassign every variable before/after an index.</p>
+  <p>- Can access any
+
+  <h3>Linked List Properties</h3>
+
+  <p>
+
+</div>

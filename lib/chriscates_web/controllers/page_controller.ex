@@ -21,4 +21,8 @@ defmodule ChriscatesWeb.PageController do
     render conn, "emojichain.html", title: "Emoji Blockchain Tech in 50 lines of code"
   end
 
+  def ring_buffers(conn, _params) do
+    render conn, "ring_buffers.html", title: "Non-Atomic Ring Buffers in Node.js"
+  end
+
 end
