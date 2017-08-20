@@ -25,4 +25,8 @@ defmodule ChriscatesWeb.PageController do
     render conn, "ring_buffers.html", title: "Non-Atomic Ring Buffers in Node.js"
   end
 
+  def linked_lists(conn, _params) do
+    render conn, "linked_lists.html", title: "Linked Lists and Blockchain"
+  end
+
 end

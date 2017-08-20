@@ -2,14 +2,24 @@
   <h2>Computer Science is fun and magical.</h2>
   <h2>Here's some random pages about computer stuff</h2>
 
+  <a href="/linked_lists" class="link">
+    <h3>Linked Lists and Blockchain</h3>
+    <h3>August 20th, 2017</h3>
+    <p>
+      Honestly, me and my friend Chris Hahn always ponder this... What is so special about Blockchain? It's literally just an
+      obfuscated way of saying you made a Linked List. Sure Cryptocurrencies throw in some SHA-2, but... really. It literally
+      is just a linked list. I don't get the hype around it. Linked Lists have existed for decades, while Linked Lists are
+      a very effiecent way of storing datasets. It just seems kind of funny to me that only NOW does it catch on.
+    </p>
+  </a>
+
   <a href="/ring_buffers" class="link">
     <h3>Non-Atomic Ring Buffers in Node.js</h3>
     <h3>August 20th, 2017</h3>
     <p>
       What? Were you honestly expecting a lock-free atomic ring buffer to be built in pure node.js?
       Yea keep dreaming. Anyway, recently came across the need for a Ring Buffer in JS. Of course,
-      I would LOVE to be able to leverage it in atomic form (for those who have no clue the difference
-      between. We're kind of stuck with what V8 gives us so...
+      I would LOVE to be able to leverage it in atomic form. We're kind of stuck with what V8 gives us so...
     </p>
   </a>
 

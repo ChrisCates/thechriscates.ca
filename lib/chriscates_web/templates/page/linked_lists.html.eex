@@ -1,0 +1,38 @@
+<div class="content">
+  <h2>Linked Lists and Blockchain</h2>
+  <p>
+    Honestly, me and my friend Chris Hahn always ponder this... What is so special about Blockchain? It's literally just an
+    obfuscated way of saying you made a Linked List. Sure Cryptocurrencies throw in some SHA-2, but... really. It literally
+    is just a linked list. I don't get the hype around it. Linked Lists have existed for decades, while Linked Lists are
+    a very effiecent way of storing datasets. It just seems kind of funny to me that only NOW does it catch on.
+  </p>
+
+  <h2>What is a Linked List?</h2>
+  <p>
+    Linked Lists are literally designed exactly the same way Blockchain works. A node (or block) references it's
+    previous block. Double Linked Lists are the same except with a reference to it's previous and
+    and next node. Here's some code to represent a Linked List (both single and double):
+  </p>
+
+  <script src="https://gist.github.com/ChrisCates/67cc0af34373188009dab7b290c45022.js"></script>
+
+  <h2>What are the benefits of linked lists?</h2>
+
+  <p>
+    In comparison to other data structures like "lists/arrays". Insertions and Deletions are considerably faster.
+    Also referencing the head or tail of a Linked List is considerably faster too O(1) as opposed to O(n) for both
+    look up and insertion/deletion. The only concern with Linked Lists is the accessibility of nodes in the middle
+    of Linked Lists. Unless you have a pointer... err... in Node.js I guess that's a variable, referencing the
+    nodes can be considerably slow for large datasets. However who cares in Blockchain land? All we care about are
+    recent transactions in the linked list... I mean ledger.
+  </p>
+
+  <h2>Why are you ranting?</h2>
+  <p>
+    I'm only ranting because this technology has existed for decades... I just don't understand why it's all in a sudden
+    catching on. Then again, Machine Learning and especially Neural Networks are hyped up to a unhealthy crazy amount too.
+    When Neural Networks in reality are in most use cases a very poor way to implement machine learning techniques...
+    (atleast from a computational cost standpoint).
+  </p>
+
+</div>
