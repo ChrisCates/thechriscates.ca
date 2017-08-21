@@ -12,15 +12,14 @@
   <p>
     Computationally speaking, a linked list would be far superior then a DAG in look up time. And
     honestly it shows in Ethereum's core tech. That shit is slow as fuck! But there's
-    a lot of benefits to DAGs, considering we can't really delete anything in the chain of vertexes (except
-    for the latest insertion). Vitalik calls it "memory hard" in his own little
+    a lot of benefits to DAGs. Vitalik calls it "memory hard" in his own little
     <a href="http://www.hashcash.org/papers/dagger.html" target="_blank">white paper.</a> Uhh? Ok... 😂
   </p>
 
   <h2>How does this shit even work?</h2>
   <p>
     Honestly, people complicate the fuck out of these concepts. But they're simple as shit... It's
-    literally a binary tree that just doesn't allow circular insertions of vertexes. That's ALL it is...
+    literally a graph that just doesn't allow circular insertions of vertexes. That's ALL it is...
     Here's a code sample to illustrate an implementation of DAGs.
   </p>
   <script src="https://gist.github.com/ChrisCates/8c0ae5f3c78276dfdca6a1c9a765f941.js"></script>
