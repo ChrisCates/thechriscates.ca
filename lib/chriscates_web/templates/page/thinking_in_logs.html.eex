@@ -1,0 +1,44 @@
+<div class="content">
+  <h2>Thinking in Logarithms</h2>
+
+  <p>
+    My favourite aspect of mathematics are logarithms. The thought of rearranging numerical values
+    based on their logarithmic scale is extremely entertaining to me. Also, entertaining the thought
+    of binary versus natural numbers is also fun. Since the only difference between the
+    two are their spectrum on the logarithmic scale (binary is log base 2, natural numbers log base 10).
+    What if we were to arrange values in different logarithmic scales? What would they look like?
+  </p>
+
+  <h2>Understanding how Logarithms work</h2>
+
+  <p>
+    First, let's get a general idea of how logarithms work... Not sure if this was ever explained in
+    highschool to you guys (probably was I think). But logarithms are essentially just a number for
+    enumerating the power of which a number goes to the next place. So for example in binary,
+    which is log base 2. You only have 2 values in enumeration. 1 and 0. If you go over 1 then
+    you go to the next place.
+  </p>
+
+  <h2>Comparisons in value (from log base 2 to log base 10)</h2>
+
+  <p>
+    0 = 0 <br/>
+    1 = 1 <br/>
+    10 = 3 <br/>
+    11 = 4 <br/>
+    100 = 5 <br/>
+    and so forth...
+  </p>
+
+  <h2>Logarithms beyond base 10</h2>
+
+  <p>
+    This is my favourite part about logarithms and has amused me to no end since in classical mathematics
+    we have never enumerated a value over 9.
+    As you can imagine, we can't really use a logarithms beyond base 10 (atleast with human interaction)
+    using classical mathematical enumerations... But, it would be super cool if we made up new numbers
+    specifically for different logarithmic scales. We didn't really think things too far ahead
+    in the world of mathematics... atleast on the logarithmic scale.
+  </p>
+
+</div>

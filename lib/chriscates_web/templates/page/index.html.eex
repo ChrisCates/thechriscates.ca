@@ -1,6 +1,17 @@
 <div class="content">
-  <h2>Computer Science is fun and magical.</h2>
-  <h2>Here's some random pages about computer stuff</h2>
+  <h2>Some random pages about computer stuff</h2>
+
+  <a href="/thinking_in_logs" class="link">
+    <h3>Thinking in Logarithms</h3>
+    <h3>August 20th, 2017</h3>
+    <p>
+      My favourite aspect of mathematics are logarithms. The thought of rearranging numerical values
+      based on their logarithmic scale is extremely entertaining to me. Also, entertaining the thought
+      of binary versus natural numbers is also very entertaining. Since the only difference between the
+      two are their spectrum on the logarithmic scale (binary is log base 2, natural numbers log base 10).
+      What if we were to arrange values in different logarithmic scales? What would they look like?
+    </p>
+  </a>
 
   <a href="/linked_lists" class="link">
     <h3>Linked Lists and Blockchain</h3>

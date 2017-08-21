@@ -29,4 +29,8 @@ defmodule ChriscatesWeb.PageController do
     render conn, "linked_lists.html", title: "Linked Lists and Blockchain"
   end
 
+  def thinking_in_logs(conn, _params) do
+    render conn, "thinking_in_logs.html", title: "Thinking in Logarithms"
+  end
+
 end
