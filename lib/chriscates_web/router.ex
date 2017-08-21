@@ -24,6 +24,7 @@ defmodule ChriscatesWeb.Router do
     get "/ring_buffers", PageController, :ring_buffers
     get "/linked_lists", PageController, :linked_lists
     get "/thinking_in_logs", PageController, :thinking_in_logs
+    get "/dags", PageController, :dags
   end
 
   # Other scopes may use custom stacks.

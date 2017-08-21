@@ -33,4 +33,8 @@ defmodule ChriscatesWeb.PageController do
     render conn, "thinking_in_logs.html", title: "Thinking in Logarithms"
   end
 
+  def dags(conn, _params) do
+    render conn, "dags.html", title: "What the heck are DAGs?"
+  end
+
 end
