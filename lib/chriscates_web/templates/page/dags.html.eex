@@ -5,8 +5,7 @@
     If you're familar with Graph Theory, have used Graph DBs or Binary Trees.
     Grasping the concept of DAGs shouldn't be a problem. Basically think of it this way,
     every edge represents it's current and next vertex.
-    Thus each edge will always be unique in the graph. This is really good in a blockchain because
-    you don't want indices to collide with each other.
+    The only rule is you can't have a circular insertion of vertexes...
   </p>
 
   <h2>Why not Linked Lists?</h2>
