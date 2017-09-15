@@ -1,0 +1,49 @@
+<div class="content">
+  <a href="/euclid"><p>Click here to go back to the main page</p></a>
+  <h2>The 13 Books of Euclid: Proposition 1</h2>
+  <h3>To construct an equilateral triangle on a given finite straight line.</h3>
+  <svg class="geometry-scene" viewbox="0 0 500 500"></svg>
+  <p>
+    It is required to construct an equilateral triangle on the straight line AB.
+
+    Describe the circle BCD with center A and radius AB. Again describe the circle ACE with center B and radius BA. Join the straight lines CA and CB from the point C at which the circles cut one another to the points A and B.
+
+    Now, since the point A is the center of the circle CDB, therefore AC equals AB. Again, since the point B is the center of the circle CAE, therefore BC equals BA.
+    But AC was proved equal to AB, therefore each of the straight lines AC and BC equals AB.
+
+    And things which equal the same thing also equal one another, therefore AC also equals BC.
+    Therefore the three straight lines AC, AB, and BC equal one another.
+
+    Therefore the triangle ABC is equilateral, and it has been constructed on the given finite straight line AB.
+  </p>
+</div>
+
+<link rel="stylesheet" href="<%= static_path(@conn, "/css/geometry.min.css") %>">
+<script src="<%= static_path(@conn, "/js/d3.min.js") %>"></script>
+<script src="<%= static_path(@conn, "/js/geometry.js") %>"></script>
+<script>
+var width = 500;
+var height = 500;
+
+var scene = new geom.Scene({
+  left: 0,
+  top: 0,
+  right: width,
+  bottom: height
+});
+
+scene
+.point        ('A', width/7*3, height/2)
+.point        ('B', width/7*5, height/2)
+.point        ('C', width/7*4, height/3)
+.circle       ('D', 'A', 'C')
+.circle       ('E', 'B', 'C')
+.line         ('F', 'A', 'B')
+.line         ('G', 'A', 'C')
+.line         ('H', 'B', 'C')
+
+
+// render using d3.
+var render = geom.renderer(scene, document.querySelector('svg'));
+render();
+</script>

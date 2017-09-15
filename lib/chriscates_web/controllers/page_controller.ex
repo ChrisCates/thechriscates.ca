@@ -41,4 +41,12 @@ defmodule ChriscatesWeb.PageController do
     render conn, "merkle_trees.html", title: "Merkle Trees, unfortunately are not trees"
   end
 
+  def euclid_index(conn, _params) do
+    render conn, "euclid_index.html", title: "The 13 Books of Euclid"
+  end
+
+  def euclid_1(conn, _params) do
+    render conn, "euclid_1.html", title: "The 13 Books of Euclid: Proposition 1"
+  end
+
 end

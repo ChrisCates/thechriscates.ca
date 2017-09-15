@@ -26,6 +26,9 @@ defmodule ChriscatesWeb.Router do
     get "/thinking_in_logs", PageController, :thinking_in_logs
     get "/dags", PageController, :dags
     get "/merkle_trees", PageController, :merkle_trees
+
+    get "/euclid", PageController, :euclid_index
+    get "/euclid/1", PageController, :euclid_1
   end
 
   # Other scopes may use custom stacks.
