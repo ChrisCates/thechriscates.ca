@@ -1,27 +1,16 @@
 <div class="content">
-  <h2>Some random pages about computer stuff</h2>
+  <h2>Computer Science is fun and magical.</h2>
+  <h2>Here's some random pages about computer stuff</h2>
 
-  <a href="/dags" class="link">
-    <h3>What the heck are DAGs?</h3>
-    <h3>August 20th, 2017</h3>
+  <a href="/merkle_trees" class="link">
+    <h3>Merkle Trees, unfortunately are not trees</h3>
+    <h3>August 23th, 2017</h3>
     <p>
-      You've probably heard of DAGs (Directed Acyclic Graphs) because of Ethereum. 
-      If you're familar with Graph Theory, have used Graph DBs or Binary Trees.
-      Grasping the concept of DAGs shouldn't be a problem. Basically think of it this way,
-      every vertex is references it's previous and next value. Thus each edge will always be
-      unique in the graph.
-    </p>
-  </a>
-
-  <a href="/thinking_in_logs" class="link">
-    <h3>Thinking in Logarithms</h3>
-    <h3>August 20th, 2017</h3>
-    <p>
-      My favourite aspect of mathematics are logarithms. The thought of rearranging numerical values
-      based on their logarithmic scale is extremely entertaining to me. Also, entertaining the thought
-      of binary versus natural numbers is also very entertaining. Since the only difference between the
-      two are their spectrum on the logarithmic scale (binary is log base 2, natural numbers log base 10).
-      What if we were to arrange values in different logarithmic scales? What would they look like?
+      There are so many damn cool trees out there... Willow, Oak, Pine... Unfortunately,
+      Merkle Trees are an algorithm, not a tree. The concept of
+      Merkle Trees is fairly straightforward. Child nodes hash
+      their parent nodes. So basically it's a graph with hashes
+      hashing each other (with some sort of original value).
     </p>
   </a>
 

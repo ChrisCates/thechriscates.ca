@@ -37,4 +37,8 @@ defmodule ChriscatesWeb.PageController do
     render conn, "dags.html", title: "What the heck are DAGs?"
   end
 
+  def merkle_trees(conn, _params) do
+    render conn, "merkle_trees.html", title: "Merkle Trees, unfortunately are not trees"
+  end
+
 end

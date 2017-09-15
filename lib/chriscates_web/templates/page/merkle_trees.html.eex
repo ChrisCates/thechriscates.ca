@@ -1,0 +1,58 @@
+<div class="content">
+  <h2>Merkle Trees, unfortunately are not trees</h2>
+  <p>
+    There are so many damn cool trees out there... Willow, Oak, Pine... Unfortunately,
+    Merkle Trees are an algorithm, not a tree. The concept of
+    Merkle Trees is fairly straightforward. Child nodes hash
+    their parent nodes. So basically it's a graph with hashes
+    hashing each other (with some sort of original value).
+  </p>
+
+  <h2>What's so special about Merkle Trees?</h2>
+  <p>
+    It's a considerable improvement to a basic SHA encryption.
+    Since there is recursion involved and cryptography is embedded in a graph
+    as opposed to just one string generated with a bunch of random bitwise
+    operations (lol derp SHA in a nutshell, still pretty good snippet of code though).
+  </p>
+
+  <h2>I googled Merkle Trees and this shit looks complex as fuck.</h2>
+  <p>
+    I bet when you saw Directed Acyclic Graphs you thought that shit was complex too.
+    Honestly, I can't tell if these old Computer Scientist dudes are trying to complicate
+    the fuck out these concepts to scare off noobs... Merkle Trees are by nature a simple
+    concept... It's a hash of a hash... 💩
+  </p>
+
+  <h2>Merkle Trees and Time complexity</h2>
+  <p>
+    The cool thing about Merkle Trees is that they have a considerable improvement in Big O
+    in comparison to something like a hash list or these other fancy ass techniques...
+    (lol I mean a string is obviously gonna be O(1) so don't expect it to be faster then raw SHA-2).
+    Traversal is obviously going to be O(n)... Technically O(V + E) since it's a graph...
+    But benefit of Merkle Trees over regular hash lists is that the graph is typically fast as shit.
+    Being O(log_k(n)) (that underscore notates a subscript btw) for searching, insertion and deletion.
+  </p>
+
+  <h2>Unrelated side note of rage...</h2>
+  <p>
+    <a href="http://bigocheatsheet.com/" target="_blank">Big O Cheat Sheet</a> is a pretty popular reference
+    for learning time complexity of certain data structures. Shit annoys the fuck out of me that it notates
+    all trees without a subscript O(log(n)) and not O(log_k(n)) since the logarithmic base can vary depending on the complexity
+    of the graph. Talk about spreading misinformation. I mean it is technically correct... But still... 😡
+  </p>
+
+  <h2>Okay Chris, I'm bored as shit... Can I learn how to write a Merkle Tree now?</h2>
+  <p>
+    Yea I'm bored too... Why I'm rambling. Here's a code snippet for you to learn how to Merkle your cryptography
+    shit.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/a252ba60d6aa1d6e8a0477e105e0a728.js"></script>
+  <p>
+    When you see a MINIMUM implementation of Merkle Trees with the ability to define width and depth
+    in a 2 dimensional array (treated as a graph in theory). The implementation looks a lot simpler
+    then people make it sound. You can fiddle around with the hashing technique or modify the encryption method
+    and it would still be valid granted you are doing graph based hashing of hashes. Anyway hope you learned
+    something. See ya! 🍌
+  </p>
+</div>

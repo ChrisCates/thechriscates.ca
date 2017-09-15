@@ -25,6 +25,7 @@ defmodule ChriscatesWeb.Router do
     get "/linked_lists", PageController, :linked_lists
     get "/thinking_in_logs", PageController, :thinking_in_logs
     get "/dags", PageController, :dags
+    get "/merkle_trees", PageController, :merkle_trees
   end
 
   # Other scopes may use custom stacks.
