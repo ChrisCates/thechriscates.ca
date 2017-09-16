@@ -5,15 +5,15 @@
   <svg class="geometry-scene" viewbox="0 0 500 500"></svg>
   <p>
     It is required to construct an equilateral triangle on the straight line AB.
-
+    <br/><br/>
     Describe the circle BCD with center A and radius AB. Again describe the circle ACE with center B and radius BA. Join the straight lines CA and CB from the point C at which the circles cut one another to the points A and B.
-
+    <br/><br/>
     Now, since the point A is the center of the circle CDB, therefore AC equals AB. Again, since the point B is the center of the circle CAE, therefore BC equals BA.
     But AC was proved equal to AB, therefore each of the straight lines AC and BC equals AB.
-
+    <br/><br/>
     And things which equal the same thing also equal one another, therefore AC also equals BC.
     Therefore the three straight lines AC, AB, and BC equal one another.
-
+    <br/><br/>
     Therefore the triangle ABC is equilateral, and it has been constructed on the given finite straight line AB.
   </p>
 </div>
@@ -33,14 +33,16 @@ var scene = new geom.Scene({
 });
 
 scene
-.point        ('A', width/7*3, height/2)
-.point        ('B', width/7*5, height/2)
-.point        ('C', width/7*4, height/3)
-.circle       ('D', 'A', 'C')
-.circle       ('E', 'B', 'C')
-.line         ('F', 'A', 'B')
-.line         ('G', 'A', 'C')
-.line         ('H', 'B', 'C')
+.point        ('A', width/7*4, height/2)
+.point        ('B', width/7*3, height/2)
+.point        ('C', width/7*3.5, height/3)
+.point        ('D', width/7*4.5, height/2)
+.point        ('E', width/7*2.5, height/2)
+.circle       ('F', 'D', 'C')
+.circle       ('G', 'E', 'C')
+.line         ('H', 'A', 'B')
+.line         ('I', 'A', 'C')
+.line         ('J', 'B', 'C')
 
 
 // render using d3.
