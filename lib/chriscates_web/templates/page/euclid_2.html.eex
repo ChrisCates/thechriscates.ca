@@ -1,0 +1,52 @@
+<div class="content">
+  <a href="/euclid"><p>Click here to go back to the main page</p></a>
+  <h2>The 13 Books of Euclid: Proposition 2</h2>
+  <h3>To place a straight line equal to a given straight line with one end at a given point.</h3>
+  <svg class="geometry-scene" viewbox="0 0 500 500"></svg>
+  <p>
+    It is required to place a straight line equal to the given straight line BC with one end at the point A.
+    <br/><br/>
+    Join the straight line AB from the point A to the point B, and construct the equilateral triangle DAB on it.
+    <br/><br/>
+    Produce the straight lines AE and BF in a straight line with DA and DB. Describe the circle CGH with center B and radius BC, and again, describe the circle GKL with center D and radius DG.
+    <br/><br/>
+    Since the point B is the center of the circle CGH, therefore BC equals BG. Again, since the point D is the center of the circle GKL, therefore DL equals DG.
+    <br/><br/>
+    And in these DA equals DB, therefore the remainder AL equals the remainder BG.
+    <br/><br/>
+    But BC was also proved equal to BG, therefore each of the straight lines AL and BC equals BG. And things which equal the same thing also equal one another, therefore AL also equals BC.
+    Therefore the straight line AL equal to the given straight line BC has been placed with one end at the given point A.
+  </p>
+</div>
+
+<link rel="stylesheet" href="<%= static_path(@conn, "/css/geometry.min.css") %>">
+<script src="<%= static_path(@conn, "/js/d3.min.js") %>"></script>
+<script src="<%= static_path(@conn, "/js/geometry.js") %>"></script>
+<script>
+var width = 500;
+var height = 500;
+
+var scene = new geom.Scene({
+  left: 0,
+  top: 0,
+  right: width,
+  bottom: height
+});
+
+scene
+.point        ('A', width/7*4, height/2)
+.point        ('B', width/7*3, height/2)
+.point        ('C', width/7*3.5, height/3)
+.point        ('D', width/7*3.5, height/1.5)
+.line         ('AB', 'A', 'B')
+.line         ('CB', 'B', 'C')
+.line         ('BD', 'B', 'D')
+.line         ('AD', 'A', 'D')
+.point        ('E', width/7*4.5, height/3)
+.circle       ('Circle CB', 'B', 'C')
+.circle       ('Circle ED', 'D', 'E')
+
+// render using d3.
+var render = geom.renderer(scene, document.querySelector('svg'));
+render();
+</script>

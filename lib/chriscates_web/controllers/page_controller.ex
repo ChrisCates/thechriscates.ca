@@ -49,4 +49,8 @@ defmodule ChriscatesWeb.PageController do
     render conn, "euclid_1.html", title: "The 13 Books of Euclid: Proposition 1"
   end
 
+  def euclid_2(conn, _params) do
+    render conn, "euclid_2.html", title: "The 13 Books of Euclid: Proposition 2"
+  end
+
 end

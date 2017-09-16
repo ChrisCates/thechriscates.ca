@@ -29,6 +29,7 @@ defmodule ChriscatesWeb.Router do
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1
+    get "/euclid/2", PageController, :euclid_2
   end
 
   # Other scopes may use custom stacks.
