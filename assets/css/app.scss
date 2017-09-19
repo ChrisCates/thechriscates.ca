@@ -106,4 +106,9 @@ div.content {
   a {
     color: $b1;
   }
+  img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+  }
 }

@@ -41,6 +41,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "merkle_trees.html", title: "Merkle Trees, unfortunately are not trees"
   end
 
+  def poker_and_ether(conn, _params) do
+    render conn, "poker_and_ether.html", title: "How to use Ethereum for gambling"
+  end
+
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
   end

@@ -10,6 +10,18 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/poker_and_ether" class="link">
+    <h3>How to use Ethereum for gambling</h3>
+    <h3>September 19th, 2017</h3>
+    <p>
+      I think one of the main benefits and use cases for Ethereum over Bitcoin is how accessible
+      Ethereum makes writing smart contracts and "dApps" with it. Ethereum has it's own compiled
+      language called "Solidity" which lends a lot of it's syntax and structure to Golang. I
+      would almost argue Solidity being a successor to the Golang language. Much like how Kotlin
+      was the Google's brainchild and prototype successor to Golang.
+    </p>
+  </a>
+
   <a href="/merkle_trees" class="link">
     <h3>Merkle Trees, unfortunately are not trees</h3>
     <h3>September 14th, 2017</h3>

@@ -26,6 +26,7 @@ defmodule ChriscatesWeb.Router do
     get "/thinking_in_logs", PageController, :thinking_in_logs
     get "/dags", PageController, :dags
     get "/merkle_trees", PageController, :merkle_trees
+    get "/poker_and_ether", PageController, :poker_and_ether
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1

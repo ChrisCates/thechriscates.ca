@@ -1,0 +1,51 @@
+<div class="content">
+  <h2>How to use Ethereum for gambling</h2>
+  <p>
+    I think one of the main benefits and use cases for Ethereum over Bitcoin is how accessible
+    Ethereum makes writing smart contracts and "dApps" with it. Ethereum has it's own compiled
+    language called "Solidity" which lends a lot of it's syntax and structure to Golang. I
+    would almost argue Solidity being a successor to the Golang language. Much like how Kotlin
+    was the Google's brainchild and prototype successor to Golang.
+  </p>
+  <p>
+    Before we move forward let's understand some things here first. Before you can even compile
+    Ethereum smart contracts you need "geth" installed on your computer (which is short for "Golang Ethereum").
+    If you're on Mac OSX it's just a brew install away, Linux a sudo apt-get as well too.
+  </p>
+  <p>
+    Personally, I loved the "Truffle" framework which was built ontop of Ethereum and Solidity. Truffle
+    is designed to build new tokens off of Ethereum. Ideally we use Ethereum to exchange it for our Poker Tokens.
+    To get started, all we have to do is run "truffle unbox webpack"
+    in our command line tool and it'll generate us all the project toolings we need to start making a smart
+    contract.
+  </p>
+  <h2>Core application logic</h2>
+  <p>
+    For demonstration purposes of this blog post. The core application logic will be greatly simplified and only demonstrate
+    the flow of tokens from a "Winner" and a "Loser". However, potentially later I may be making a poker game with similar
+    demonstrations. To even simplify the process even greater. There is only one loser, and that's your primary account.
+    It essentially randomly sends Poker Coins to a random account. This application logic could easily be redone to
+    support the structure of a poker game. All you have to do is make it trigger a transaction when someone wins a hand
+    instead of it being assigned to a random person.
+  </p>
+  <img src="<%= static_path(@conn, "/images/pokercoin.png") %>"/>
+  <p>
+    The original "MetaCoin" was renamed to be PokerCoin but the entirety of it's logic remained the same. You could do
+    cool things like destroy some coins every transaction if you wanted to, but that's not necessary for our purposes.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/8076af8940bdf2846278182475b3613b.js"></script>
+  <p>
+    Then I rearranged the structure of the HTML like this:
+  </p>
+  <script src="https://gist.github.com/ChrisCates/0e9d162f7755835bc3f1041bfff52ae6.js"></script>
+  <p>
+    When you start a new RPC on GETH. It normally has 10 fresh accounts you can use.
+    Then after that I modified the javascript to work like this:
+  </p>
+  <script src="https://gist.github.com/ChrisCates/dbb8ac5f65576e1c9c50a8cf94de4302.js"></script>
+  <p>
+    So with a bit more tinkering and maybe a Javascript Poker library. You could have your own Poker Game with it's own
+    cryptocurrency! Enjoy! :) PS: Here's the repo <a href="https://github.com/ChrisCates/poker_and_ether" target="blank">here</a>
+    if you want to play around with it.
+  </p>
+</div>
