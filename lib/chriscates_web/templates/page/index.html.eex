@@ -10,6 +10,18 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/fft" class="link">
+    <h3>Sine, Cosine, Tangents and Fast Fourier Transforms</h3>
+    <h3>September 19th, 2017</h3>
+    <p>
+      Normally we don't really think much about Sine, Cosine or Tangent functions... Maybe you did a bit in Calculus,
+      but most people don't really touch upon anything else then early transcendentals in Calculus. I believe
+      Fourier Transforms are classified as an "Advanced Transcendental" method in Calculus. But are still
+      relatively simple concept to grasp... I know I keep saying otherwise complex shit is "simple", but,
+      hey maybe I'm right and this is actually simple? 🤔
+    </p>
+  </a>
+
   <a href="/poker_and_ether" class="link">
     <h3>How to use Ethereum for gambling</h3>
     <h3>September 19th, 2017</h3>

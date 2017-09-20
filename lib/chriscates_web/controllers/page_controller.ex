@@ -45,6 +45,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "poker_and_ether.html", title: "How to use Ethereum for gambling"
   end
 
+  def fft(conn, _params) do
+    render conn, "fft.html", title: "Sine, Cosine, Tangents and Fast Fourier Transforms"
+  end
+
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
   end

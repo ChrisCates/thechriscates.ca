@@ -1,0 +1,39 @@
+<div class="content">
+  <h2>Sine, Cosine, Tangents and Fast Fourier Transforms</h2>
+  <p>
+    Normally we don't really think much about Sine, Cosine or Tangent functions... Maybe you did a bit in Calculus,
+    but most people don't really touch upon anything else then early transcendentals in Calculus. I believe
+    Fourier Transforms are classified as an "Advanced Transcendental" method in Calculus. But are still
+    relatively simple concept to grasp... I know I keep saying otherwise complex shit is "simple", but,
+    hey maybe I'm right and this is actually simple? 🤔
+  </p>
+  <h2>Sound and Vibrations</h2>
+  <p>
+    You know when people talk about vibrations and "good vibrations". Maybe one day we'll be analytical enough
+    to figure out what are "good" and "bad" vibrations. The best way to identify distribution of sound is through
+    Fourier Transforms, since most sound waves travel in sinusoidal waves. Most sinusoids are relatively simple
+    in periods, the domain and range can easily be formatted to adhere to reasonable sinusoid that can fit into
+    a Fourier Transform too.
+  </p>
+  <h2>Time Complexity and Data Sampling</h2>
+  <p>
+    As you probably have noticed. I do all my code samples on my blog in Javascript for legibility. However,
+    there aren't really any data structures we can optimize to reduce time complexity for a Fourier Transform
+    in Javascript in comparison to C. Fourier Transforms perform at O(n^2) worst case and O(n * log n) best case.
+    Data fed into a Fourier Transforms is binary 1 or 0. Making interpretation of data relatively simple once you
+    recieve outputs.
+  </p>
+  <h2>Riemann's Hypothesis and Fourier Transforms</h2>
+  <p>
+    Riemann's Hypothesis was discovered in 1856 and has been unsolved ever since. I find it's application of
+    Fourier Transforms absolutely fascinating in using trivial and non-trivial zeroes to discover secure and safe
+    prime numbers. I am not going to discuss any potential postulations of Riemann's hypothesis on this blog post,
+    but, if I do magically discover how Riemann's Zeta Function is actually supposed to work. You may see me on
+    TV getting a Millenium Prize, after I write a blog post about it as an Axiom Proof. (Just maybe 😂)
+  </p>
+  <h2>Basic Implementation</h2>
+  <p>
+    Fast Fourier Transforms end up computing as either "Discrete Fourier Transform" or an "In place Fourier Transform".
+    Here's a basic code sample of a "Discrete Fourier Transform":
+  </p>
+</div>
