@@ -36,4 +36,10 @@
     Fast Fourier Transforms end up computing as either "Discrete Fourier Transform" or an "In place Fourier Transform".
     Here's a basic code sample of a "Discrete Fourier Transform":
   </p>
+  <script src="https://gist.github.com/ChrisCates/0444c15a840940abef2b4563be3275db.js"></script>
+  <p>
+    Personally, I think Riemann is onto something here. If you test out this Fourier Transform method you could
+    easily tune the inputs to produce prime numbers. Now if only we could figure out a proper tuned function
+    that produced secure and safe primes effiecently. Hmm... Hopefully you learned something!
+  </p>
 </div>
