@@ -10,6 +10,16 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/rust_vs_c" class="link">
+    <h3>Rust versus C/++</h3>
+    <h3>September 21st, 2017</h3>
+    <p>
+      Normally I have code samples. Tonight I just feel like rambling about code. In particular I want to
+      make a case for Functional versus Imperative Systems level programming and how Functional programming is
+      better for the developer economy because we can't trust developers to write good code.
+    </p>
+  </a>
+
   <a href="/fft" class="link">
     <h3>Sine, Cosine, Tangents and Fast Fourier Transforms</h3>
     <h3>September 19th, 2017</h3>

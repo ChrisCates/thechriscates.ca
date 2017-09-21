@@ -1,0 +1,45 @@
+<div class="content">
+  <h2>Rust versus C/++</h2>
+  <p>
+    Normally I have code samples. Tonight I just feel like rambling about code. In particular I want to
+    make a case for Functional versus Imperative Systems level programming and how Functional programming is
+    better for the developer economy because we can't trust developers to write good code.
+  </p>
+  <h2>Pretty much everyone codes Node.js though</h2>
+  <p>
+    It's become pretty apparent that pretty much every new startup starts their codebase off in Node.js.
+    It's also pretty apparent that a majority of these developers have never coded a Linked List before
+    let alone have a rudimentary understanding of OOP and Big O Notation. The reason I bring this up is
+    because Node.js is an imperative language that is interpreted through C. Generally people are more
+    comfortable with this programming paradigm. However it comes with a lot of caveats and problems
+    that make it much more easy to make mistakes.
+  </p>
+  <h2>Immutability versus Mutability</h2>
+  <p>
+    While mutable functions and variables are amazing for flexibility. How do you think your RAM and CPU
+    feel moving those bits around? Not really good, trust me. Immutable variables and functions enable
+    for higher performance and not to mention less error prone code. You're less likely to make a mistake
+    if variable "foobar" is always equal to "foobar".
+  </p>
+  <h2>Pure and Impure Functions</h2>
+  <p>
+    This is less talked about, but also goes down the same route of producing less errors when you are
+    garaunteed to write a pure function always. Pure functions mean that regardless of the input you
+    have. The input you put into the function will always produce the same result. Of course there
+    are contexts when pseudo randomness will produce impurity in functional programming. However,
+    if you are writing primarily pure functions. You are less likely to make errors.
+  </p>
+  <h2>Garbage Collection</h2>
+  <p>
+    Because compiler level logic is much more predictable in a functional paradigm. You don't even
+    have to free memory like you do in C. Unless you wrote your own functional language and are not
+    using Haskell or Rust. You don't even have to worry about garbage collection and freeing unused
+    memory. Talk about less worry and less likelihood of having an OOM error.
+  </p>
+  <h2>Why does this matter?</h2>
+  <p>
+    This matters because a lot of developers have no idea how even a list works. Let alone the difference
+    and benefits of functional versus imperative programming. I mean I have written how a linked list
+    works on my blog. But I do feel like we need to do a better job explaining how these things work.
+  </p>
+</div>

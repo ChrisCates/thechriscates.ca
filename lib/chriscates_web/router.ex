@@ -28,6 +28,7 @@ defmodule ChriscatesWeb.Router do
     get "/merkle_trees", PageController, :merkle_trees
     get "/poker_and_ether", PageController, :poker_and_ether
     get "/fft", PageController, :fft
+    get "/rust_vs_c", PageController, :rust_vs_c
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1

@@ -49,6 +49,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "fft.html", title: "Sine, Cosine, Tangents and Fast Fourier Transforms"
   end
 
+  def rust_vs_c(conn, _params) do
+    render conn, "rust_vs_c.html", title: "Rust versus C/++"
+  end
+
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
   end
