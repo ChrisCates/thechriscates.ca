@@ -29,6 +29,7 @@ defmodule ChriscatesWeb.Router do
     get "/poker_and_ether", PageController, :poker_and_ether
     get "/fft", PageController, :fft
     get "/rust_vs_c", PageController, :rust_vs_c
+    get "/cyclotomic_polynomials", PageController, :cyclotomic_polynomials
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1

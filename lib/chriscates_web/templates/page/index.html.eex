@@ -10,6 +10,17 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/cyclotomic_polynomials" class="link">
+    <h3>Cyclotomic Polynomials and Phi Functions</h3>
+    <h3>September 21st, 2017</h3>
+    <p>
+      You'd think I'd be drawing circles in code because who doesn't love circles and pi?
+      In reality though, I'm just writing Phi Functions today.
+      It's some cool shit that's one thing for sure. But what exactly
+      is a Phi function?
+    </p>
+  </a>
+
   <a href="/rust_vs_c" class="link">
     <h3>Rust versus C/++</h3>
     <h3>September 21st, 2017</h3>

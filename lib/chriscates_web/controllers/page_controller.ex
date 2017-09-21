@@ -53,6 +53,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "rust_vs_c.html", title: "Rust versus C/++"
   end
 
+  def cyclotomic_polynomials(conn, _params) do
+    render conn, "cyclotomic_polynomials.html", title: "Cyclotomic Polynomials and Phi Functions"
+  end
+
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
   end
