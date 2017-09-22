@@ -1,0 +1,30 @@
+<div class="content">
+  <h2>Cyclotomic Polynomials and Phi Functions</h2>
+  <p>
+    You'd think I'd be drawing circles in code because who doesn't love circles and pi?
+    In reality though, I'm just writing Phi Functions today.
+    It's some cool shit that's one thing for sure. But what exactly
+    is a Phi function?
+  </p>
+  <h2>Phi Function aka Euler's Totient Function</h2>
+  <p>
+    I never really understood the relation between Phi and Phi functions. Especially since
+    the derivation of a Phi function is based on coprimes and Phi derives from Fibonacci.
+    The cool thing about the Phi Function is that it counts only numbers that are "relatively prime"
+    to the number inputted. So let's say you put in 15 into a Phi function. Then you're left with the
+    set {1, 2, 4, 7, 8, 11, 13, 14}. Since there are 8 remaining numbers. Phi(15) = 8.
+  </p>
+  <h2>A Snippet of code to show how it works</h2>
+  <script src="https://gist.github.com/ChrisCates/ada6c2508beb7b7dd917c273c3514182.js"></script>
+  <p>
+    At first when I coded this. I wondered why sometimes it worked and other times it didn't. It turned
+    out that I needed to count a prime only once in the case if it were to have multiple primes for
+    the same numerical divisor. Confusing at first, I know, especially when dealing with prime numbers
+    that have no divisors LOL!
+  </p>
+  <h2>Cyclotomic Polynomials</h2>
+  <p>
+    Cyclotomic Polynomials on the otherhand take Phi Functions up a notch by each nth order it increases by.
+    It's defined by Primitive Roots of Unities which is something we will discuss in another blog post.
+  </p>
+</div>
