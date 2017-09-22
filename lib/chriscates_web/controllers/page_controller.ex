@@ -53,6 +53,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "rust_vs_c.html", title: "Rust versus C/++"
   end
 
+  def number_theory(conn, _params) do
+    render conn, "number_theory.html", title: "Number Theory in Javascript"
+  end
+
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
   end

@@ -1,0 +1,22 @@
+<div class="content">
+  <h2>Number Theory in Javascript</h2>
+  <p>
+    A quick and short primer to Number Theory with Javascript snippets. Shout out to Kurt Braget
+    for being my homie and inspiring me to write this small book.
+  </p>
+  <h2>Table of Contents</h2>
+  <p><a href="#even_and_odd">Even and Odd Numbers</a></p>
+  <div id="even_and_odd">
+    <h2>Even and Odd Numbers</h2>
+    <h3>Even numbers are when division by 2 the remainder is 0</h3>
+    <h3>Odd Numbers are when division by 2 the remainder is 1</h3>
+    <p>Code snippet to identify Even and Odd Numbers</p>
+    <script src="https://gist.github.com/ChrisCates/df81fc15dfa0153ce7171f37db587747.js"></script>
+    <h3>What does this mean?</h3>
+    <p>
+      Based on the parity of both functions. This means we can separate them into separate sets.
+      Where The Set of Even Numbers has a Parity of 0. Where The Set of Oddd Numbers has a Parity of 1.
+    </p>
+
+  </div>
+</div>
