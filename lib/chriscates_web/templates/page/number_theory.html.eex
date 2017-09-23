@@ -10,6 +10,7 @@
   <p><a href="#remainder">Remainders and Modulation</a></p>
   <p><a href="#prime">Prime and Composite Numbers</a></p>
   <p><a href="#mersenneprime">Mersenne Prime Numbers</a></p>
+  <p><a href="#primefactors">Prime Factorization</a></p>
 
   <div id="even_and_odd">
     <h2>Even and Odd Numbers</h2>
@@ -71,6 +72,17 @@
       We can compute whether a number is a Mersenne Prime Number with the following code snippet.
     </p>
     <script src="https://gist.github.com/ChrisCates/1b0ddcea4da2725e6e3bcdcecc511c78.js"></script>
+  </div>
+
+  <div id="primefactors">
+    <h2>Prime Factorization</h2>
+    <p>
+      Prime Factors are a fundamental theroem in arithmetic. Essentially any number greater than
+      1 is either a prime number or can be written as a product of prime numbers. The following
+      snippet of code figures out both the prime factors and the multiples required to make
+      the product value.
+    </p>
+    <script src="https://gist.github.com/ChrisCates/07552045d9d6993b114d1c6c2bbd9b46.js"></script>
   </div>
 
 </div>
