@@ -1,0 +1,34 @@
+<div class="content">
+  <h2>Back to Rust: Initial Thoughts</h2>
+  <p>
+    I was writing a database in C. Then I quickly glanced over the perks of C++, and then Rust
+    and clearly thought Rust was a winner. After all the nature of the language makes system
+    level design extremely hard to fuck up. However, funny enough, even writing to disk
+    "Hello World" took more then 5 minutes. Which C++ took me 30 seconds to figure out.
+  </p>
+  <h2>Cargo asks for Snake Case, let me use Camel Case FFs.</h2>
+  <p>
+    One thing that frustrates me to no end is I like Camel Case and everytime I start a
+    project in Rust and run it. It keeps putting a warning in the console to have a snake
+    case name in the Cargo.toml file. Ugh, I like camel case god damnit! Let me use it.
+  </p>
+  <h2>The documentation is always out of date.</h2>
+  <p>
+    I think the funniest thing is how out of date the documentation is.
+    If you go to this link <a href="https://doc.rust-lang.org/std/io/trait.Write.html" target="_blank">here</a>.
+    If you format this code to run in a `main` function. It'll give you a bunch of errors.
+    What actually works is this:
+  </p>
+  <script src="https://gist.github.com/ChrisCates/1920574df31c2a0b069c59f42fbaf599.js"></script>
+  <p>
+    This took me 5 minutes to figure out looking at more up to date documentation in different places.
+    The conditional `?` does not work in Rust 1.2 which is ultra frustrating (and also the latest version at the
+    time of writing this article).
+  </p>
+  <h2>Rust is still awesome though.</h2>
+  <p>
+    Don't get me wrong, there are lots of WTF moments when coding C/++ too. It's just funny that I ended up feeling
+    this way after 5 minutes. Don't get me wrong. Rust is an excellent language and probably every future database
+    should be built on it. But I'm opinionated and people don't like opinions.
+  </p>
+</div>

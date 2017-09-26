@@ -1,0 +1,32 @@
+<div class="content">
+  <h2>What the heck are DAGs?</h2>
+  <p>
+    You've probably heard of DAGs (Directed Acyclic Graphs) because of Ethereum.
+    If you're familar with Graph Theory, have used Graph DBs or Binary Trees.
+    Grasping the concept of DAGs shouldn't be a problem. Basically think of it this way,
+    every edge represents it's current and next vertex.
+    The only rule is you can't have a circular insertion of vertexes...
+  </p>
+
+  <h2>Why not Linked Lists?</h2>
+  <p>
+    Computationally speaking, a linked list would be far superior then a DAG in look up time. And
+    honestly it shows in Ethereum's core tech. That shit is slow as fuck! But there's
+    a lot of benefits to DAGs. Vitalik calls it "memory hard" in his own little
+    <a href="http://www.hashcash.org/papers/dagger.html" target="_blank">white paper.</a> Uhh? Ok... 😂
+  </p>
+
+  <h2>How does this shit even work?</h2>
+  <p>
+    Honestly, people complicate the fuck out of these concepts. But they're simple as shit... It's
+    literally a graph that just doesn't allow circular insertions of vertexes. That's ALL it is...
+    Here's a code sample to illustrate an implementation of DAGs.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/8c0ae5f3c78276dfdca6a1c9a765f941.js"></script>
+
+  <p>
+    Man, I thought this shit would be some cool as shit algorithm like Fourier Transforms when I first heard of it.
+    When I actually learned about it... It's just some basic graph stuff. Oh well! Hopefully you learned
+    something!
+  </p>
+</div>

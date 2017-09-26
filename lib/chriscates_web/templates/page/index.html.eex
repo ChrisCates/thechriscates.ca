@@ -15,6 +15,17 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/back_to_rust" class="link">
+    <h3>Back to Rust: Initial Thoughts</h3>
+    <h3>September 26th, 2017</h3>
+    <p>
+      I was writing a database in C. Then I quickly glanced over the perks of C++, and then Rust
+      and clearly thought Rust was a winner. After all the nature of the language makes system
+      level design extremely hard to fuck up. However, funny enough, even writing to disk
+      "Hello World" took more then 5 minutes. Which C++ took me 30 seconds to figure out.
+    </p>
+  </a>
+
   <a href="/cyclotomic_polynomials" class="link">
     <h3>Cyclotomic Polynomials and Phi Functions</h3>
     <h3>September 21st, 2017</h3>
