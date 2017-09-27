@@ -15,6 +15,18 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/rust_ledger" class="link">
+    <h3>Building a blockchain ledger in Rust</h3>
+    <h3>September 26th, 2017</h3>
+    <p>
+      While what I've built so far more reflects the emojichain blog post.
+      I have to say, writing even just this much code and seeing it work effectively has been extremely
+      rewarding in Rust. This blockchain database is a bit more serious then my previous project and
+      has a core intention of being a distributed, scalable ledger with fault tolerance. A lot of work
+      for one person I know, but who knows maybe it'll catch on?
+    </p>
+  </a>
+
   <a href="/back_to_rust" class="link">
     <h3>Back to Rust: Initial Thoughts</h3>
     <h3>September 26th, 2017</h3>

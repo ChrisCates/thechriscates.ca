@@ -32,6 +32,7 @@ defmodule ChriscatesWeb.Router do
     get "/number_theory", PageController, :number_theory
     get "/cyclotomic_polynomials", PageController, :cyclotomic_polynomials
     get "/back_to_rust", PageController, :back_to_rust
+    get "/rust_ledger", PageController, :rust_ledger
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1
