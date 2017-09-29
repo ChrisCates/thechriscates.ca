@@ -73,6 +73,11 @@ defmodule ChriscatesWeb.PageController do
     render conn, "rust_merge_sort.html", title: "Notes about Merge Sort in Rust"
   end
 
+  def sort_binary_array(conn, _params) do
+    render conn, "sort_binary_array.html", title: "Sorting a Binary Array with O(n) complexity"
+  end
+
+
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
   end

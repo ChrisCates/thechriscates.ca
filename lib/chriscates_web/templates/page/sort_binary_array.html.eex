@@ -1,0 +1,16 @@
+<div class="content">
+  <h2>Sorting a Binary Array with O(n) Complexity</h2>
+  <p>
+    I found the solution rather menial. But nevertheless, I still felt inspired
+    to blog about it, since typically sorting algorithm are O(n^2) or O(n log n)
+    which neither are ideal. The key here is that we are sorting binary values
+    so it's safe to assume the resultant values in a discretized fashion.
+  </p>
+  <h2>Implementation</h2>
+  <script src="https://gist.github.com/ChrisCates/5341ad3b96d6f88ec95cfa5cb6582944.js"></script>
+  <p>
+    Basically you just count all the zeros and put it in the front and then
+    you loop through the remaining values and put in 1s. If you wanted it in
+    ascending order you would look for 1s initially instead of 0s.
+  </p>
+</div>
