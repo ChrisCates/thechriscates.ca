@@ -69,6 +69,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "rust_ledger.html", title: "Building a blockchain ledger in Rust"
   end
 
+  def rust_merge_sort(conn, _params) do
+    render conn, "rust_merge_sort.html", title: "Notes about Merge Sort in Rust"
+  end
+
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
   end

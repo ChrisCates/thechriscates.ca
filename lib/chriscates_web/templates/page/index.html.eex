@@ -15,6 +15,16 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/rust_merge_sort" class="link">
+    <h3>Notes about Merge Sort in Rust</h3>
+    <h3>September 29th, 2017</h3>
+    <p>
+      While overall I find programming Rust extremely fun and rewarding. I wanted to write several
+      notes about caveats (or paradigm shifts rather) when programming Rust in comparison to
+      an interpreted language or tried language like C/++.
+    </p>
+  </a>
+
   <a href="/rust_ledger" class="link">
     <h3>Building a blockchain ledger in Rust</h3>
     <h3>September 26th, 2017</h3>

@@ -1,0 +1,42 @@
+<div class="content">
+  <h2>Notes about Merge Sort in Rust</h2>
+  <p>
+    While overall I find programming Rust extremely fun and rewarding. I wanted to write several
+    notes about caveats (or paradigm shifts rather) when programming Rust in comparison to
+    an interpreted language or tried language like C/++.
+  </p>
+
+  <h2>My Implementation</h2>
+  <p>
+    The following implementation is a fairly basic O(n log n) version of Merge sort that works on
+    any length array with relatively good performance. Topology and other factors should come into
+    play before using a sorting algorithm for certain use cases.
+  </p>
+
+  <script src="https://gist.github.com/ChrisCates/5ddd9ce8a76a9fe2bfed49f1f1ddc265.js"></script>
+
+  <h2>You always have to declare mutability of objects</h3>
+  <p>
+    While I consider this a good practice where you have complete control over mutability and immutability of
+    your variables and functions. In the case of a sorting algorithm, you'll more often then not need a certain
+    degree of mutability with a certain range of variables. You probably observed that I had to "clone" the
+    vector in order to mutate it.
+  </p>
+
+  <h2>Slicing vectors require for loops</h2>
+  <p>
+    Typically in languages like Python you can mutate an array/vector with something like `array[start:stop]`
+    where start is the first item and stop is the last item in the index. Unfortunately, if you observe the
+    code in Rust. I need to iterate for loops in order to achieve this. Fortunately the for loop ranges
+    can be notated with `start..stop` which is a very convenient iteration function.
+  </p>
+
+  <h2>No ++ just var = var + 1</h2>
+  <p>
+    Something which sort of irks me and could've easily been implemented into the standard library is
+    ++ and -- increment and decrement variable syntax sugar. It's not a big deal but I still do have to write
+    an extra. Anyway, this pretty much sums up my comments about Rust in comparison to something like C++.
+    Hope you learned something!
+  </p>
+
+</div>
