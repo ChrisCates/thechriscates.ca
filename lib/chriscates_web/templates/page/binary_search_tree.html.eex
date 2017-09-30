@@ -1,0 +1,15 @@
+<div class="content">
+  <h2>Help me improve this Binary Search Tree</h2>
+
+  <p>
+    Writing a Binary Search Tree is significantly easier in Javascript than it is Rust.
+    I did however, find myself extremely entertained figuring out the solution after tussling
+    with the compiler for a couple hours. Please email me if you know a better implementation
+    in a more idiomatic Rust way to implement a binary search tree.
+  </p>
+
+  <h2>Implementation</h2>
+
+  <script src="https://gist.github.com/ChrisCates/e243c36df325412161d1fc1955f50a65.js"></script>
+
+</div>

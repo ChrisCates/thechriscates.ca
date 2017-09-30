@@ -15,6 +15,17 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/binary_search_tree" class="link">
+    <h3>Help me improve this Binary Search Tree</h3>
+    <h3>September 30th, 2017</h3>
+    <p>
+      Writing a Binary Search Tree is significantly easier in Javascript than it is Rust.
+      I did however, find myself extremely entertained figuring out the solution after tussling
+      with the compiler for a couple hours. Please email me if you know a better implementation
+      in a more idiomatic Rust way to implement a binary search tree.
+    </p>
+  </a>
+
   <a href="/sort_binary_array" class="link">
     <h3>Sorting a Binary Array with O(n) Complexity</h3>
     <h3>September 29th, 2017</h3>

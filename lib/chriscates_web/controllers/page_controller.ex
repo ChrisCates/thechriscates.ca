@@ -77,6 +77,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "sort_binary_array.html", title: "Sorting a Binary Array with O(n) complexity"
   end
 
+  def binary_search_tree(conn, _params) do
+    render conn, "binary_search_tree.html", title: "Help me improve this Binary Search Tree"
+  end
+
 
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
