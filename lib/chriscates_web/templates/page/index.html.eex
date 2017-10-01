@@ -17,6 +17,7 @@
 
   <a href="/intelligent_graphs" class="link">
     <h3>Intelligent Graphs in Rust (Part 1)</h3>
+    <h3>October 1st, 2017</h3>
     <p>
       I wrote a simple yet intelligent graph implementation in Rust that automatically detected and connected
       nodes based on edges. While the current implementation is seemingly simple. I want to upgrade it eventually
