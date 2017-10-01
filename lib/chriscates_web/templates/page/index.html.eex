@@ -15,6 +15,16 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/intelligent_graphs" class="link">
+    <h3>Intelligent Graphs in Rust (Part 1)</h3>
+    <p>
+      I wrote a simple yet intelligent graph implementation in Rust that automatically detected and connected
+      nodes based on edges. While the current implementation is seemingly simple. I want to upgrade it eventually
+      to explain what sort of graphs it adheres to. Also the potential of having weighted graph vectors is
+      also a possibility.
+    </p>
+  </a>
+
   <a href="/binary_search_tree" class="link">
     <h3>Help me improve this Binary Search Tree</h3>
     <h3>September 30th, 2017</h3>

@@ -1,0 +1,18 @@
+<div class="content">
+  <h2>Intelligent Graphs in Rust (Part 1)</h2>
+
+  <p>
+    I wrote a simple yet intelligent graph implementation in Rust that automatically detected and connected
+    nodes based on edges. While the current implementation is seemingly simple. I want to upgrade it eventually
+    to explain what sort of graphs it adheres to. Also the potential of having weighted graph vectors is
+    also a possibility.
+  </p>
+
+  <script src="https://gist.github.com/ChrisCates/c914c22d5476cc01f930c8c1b395b5a4.js"></script>
+
+  <p>
+    It's a great and simple graph implementation. Part 2 will have many other cool bonuses added to it
+    to do neat things. Rust is such a fun language to work in!
+  </p>
+
+</div>

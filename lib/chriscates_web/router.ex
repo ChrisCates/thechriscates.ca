@@ -36,6 +36,7 @@ defmodule ChriscatesWeb.Router do
     get "/rust_merge_sort", PageController, :rust_merge_sort
     get "/sort_binary_array", PageController, :sort_binary_array
     get "/binary_search_tree", PageController, :binary_search_tree
+    get "/intelligent_graphs", PageController, :intelligent_graphs
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1

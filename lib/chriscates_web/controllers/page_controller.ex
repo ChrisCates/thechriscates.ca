@@ -81,6 +81,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "binary_search_tree.html", title: "Help me improve this Binary Search Tree"
   end
 
+  def intelligent_graphs(conn, _params) do
+    render conn, "intelligent_graphs.html", title: "Intelligent Graphs in Rust (Part 1)"
+  end
+
 
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
