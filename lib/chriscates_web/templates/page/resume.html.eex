@@ -95,6 +95,18 @@
     <li>Intensive mobile responsive design in SCSS</li>
   </ul>
 
+  <div style="height: 15px;"></div>
+  <h3>MerchAdvisor | February 2013 - January 2014</h3>
+  <p>
+    I build a payment processor gateway comparison site that
+    is fully interactive and enables clients to choose
+    the best processor for their needs.
+  </p>
+  <ul>
+    <li>Developed LAMP stack app with PDO</li>
+    <li>Used custom HTML templating and jQuery</li>
+  </ul>
+
   <div style="height: 30px;"></div>
   <h2>Skills</h2>
   <p>
@@ -113,6 +125,9 @@
     <li>React: Before I started using Angular 2, used React/Redux intensively</li>
     <li>Swift: For building iOS apps</li>
     <li>Java: Primarily for building Android apps</li>
+    <li>MySQL: My go to RDBMS solution, Postgres a close second</li>
+    <li>Redis: My favourite K/V Store</li>
+    <li>Memcache: My favourite alternative to Redis for session storage</li>
   </ul>
 
   <div style="height: 30px;"></div>
