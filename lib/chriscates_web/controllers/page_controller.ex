@@ -5,6 +5,12 @@ defmodule ChriscatesWeb.PageController do
     render conn, "index.html", title: "Chris Cates likes Software"
   end
 
+  def resume(conn, _params) do
+    render conn, "resume.html",
+    layout: {ChriscatesWeb.LayoutView, "resume.html"},
+    title: "Chris Cates | Resume"
+  end
+
   def bits_bytes_bitwise(conn, _params) do
     render conn, "bits_bytes_bitwise.html", title: "Bits, Bytes and Bitwise"
   end

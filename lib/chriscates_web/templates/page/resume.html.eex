@@ -1,0 +1,150 @@
+<div class="content">
+  <h2>Work Experience</h2>
+  <p>
+    Recently I've been consulting, also worked on a startup with VC Firm "Gimmel
+    Fund" for about a year called Meet F2F. Before then I worked at an agency
+    and several other startups such as MerchAdvisor or Skrumble.
+  </p>
+
+  <h3>Meet F2F (with Gimmel Fund) | Nov 2016 - July 2017</h3>
+  <p>
+    We started this project as a social interaction site to reduce
+    noise and distractions that otherwise exist on Facebook.
+    It was a pleasure working with Bill and his team.
+  </p>
+  <ul>
+    <li>Built iOS and Android app and published on app store</li>
+    <li>Built Node.js back end with MySQL</li>
+    <li>Helped run operations and strategic planning for the app</li>
+    <li>Daily scrums</li>
+  </ul>
+
+  <div style="height: 15px;"></div>
+  <h3>LeadLogica | May 2016 - October 2016</h3>
+  <p>
+    I revamped their lead generation tool and helped them optimize a lot
+    of their database. It was originally a 2nd Normal Form Database
+    and I upgraded it to 3rd Normal Form.
+  </p>
+  <ul>
+    <li>Built React Web App</li>
+    <li>Built Node.js REST API with MySQL</li>
+    <li>Optimized MySQL Database</li>
+  </ul>
+
+  <div style="height: 15px;"></div>
+  <h3>GlossGenius | February 2016 - July 2016</h3>
+  <p>
+    I helped build the front end React/Redux infrastructure
+    for their bookings system. Their back end was done in
+    Ruby on Rails and we had to build a custom authentication
+    module to work with Rails CSRF tokens.
+  </p>
+  <ul>
+    <li>Helped build a React/Redux web app</li>
+    <li>Designed an isomorphic workflow build</li>
+  </ul>
+
+  <div style="height: 15px;"></div>
+  <h3>IASQU | January 2016 - February 2016</h3>
+  <p>
+    I built a Vue.js web application that worked directly
+    with a Node.js REST API that utilized Redis and MySQL.
+    The core infrastructure was designed around current events.
+  </p>
+  <ul>
+    <li>Developed Vue.js app with Vuex</li>
+    <li>Connected directly to a JSON based REST API in Node.js</li>
+  </ul>
+
+  <div style="height: 15px;"></div>
+  <h3>Pilot Interactive | June 2015 - January 2016</h3>
+  <p>
+    I built several custom web applications for clients.
+    We used a variety of technology such as Postgres, MySQL
+    and RethinkDB. We also worked in PHP and Node.js
+  </p>
+  <ul>
+    <li>Developed in a variety of databases such Postgres, MySQL, RethinkDB</li>
+    <li>Built several RESTful APIs with tools such as Sequelize</li>
+    <li>Built front ends in variety of tools such React, Vue.js and Angular 1</li>
+  </ul>
+
+  <div style="height: 15px;"></div>
+  <h3>DraftFuel | January 2015 - June 2015</h3>
+  <p>
+    I built the entire platform for a fantasy analytics solution.
+    It had some seriously intense MySQL queries that would work
+    it's way into the platform.
+  </p>
+  <ul>
+    <li>Developed in LAMP Stack Web Application</li>
+    <li>Utilized jQuery and PHP Slim Framework</li>
+    <li>Wrote analytical MySQL queries with PDO</li>
+  </ul>
+
+  <div style="height: 15px;"></div>
+  <h3>Nuagetel (now Skrumble) | January 2014 - November 2014</h3>
+  <p>
+    I worked in Angular 1 to build a telecom hybrid application
+    in Phonegap and for Google Chrome. It involved SIP based code
+    and PHP for a back end.
+  </p>
+  <ul>
+    <li>Developed Angular 1 Web Application Infrastructure</li>
+    <li>Intensive mobile responsive design in SCSS</li>
+  </ul>
+
+  <div style="height: 30px;"></div>
+  <h2>Skills</h2>
+  <p>
+    I've had my hands in many languages but tend to gravitate towards functional
+    paradigms. My favourite working languages are Rust and Elixir, both of which
+    tend to lend themselves to heavily functional paradigms. I still do have a
+    place in my heart for Java and C/++ though. I also work with various
+    javascript frameworks like React and Angular 2.
+  </p>
+  <ul>
+    <li>Erlang/Elixir: Primarily for Web Applications in Phoenix</li>
+    <li>Rust: For systems level projects like blockchain ledgers</li>
+    <li>C++: For systems level architecture as well too</li>
+    <li>Javascript: For building front end interfaces</li>
+    <li>Angular 2: My preferred framework for building front end apps</li>
+    <li>React: Before I started using Angular 2, used React/Redux intensively</li>
+    <li>Swift: For building iOS apps</li>
+    <li>Java: Primarily for building Android apps</li>
+  </ul>
+
+  <div style="height: 30px;"></div>
+  <h2>Projects</h2>
+  <p>
+    Recently I have a variety of projects on the go such as "The 13 Books of Euclid"
+    or the eBook "Number Theory in Javascript" or even a Blockchain Ledger in Rust.
+    Most recent projects are in their early stage.
+  </p>
+
+  <h3><a href="https://www.npmjs.com/~chriscates">Various Node.js Modules</a></h3>
+  <p>
+    Currently 16 published NPM Packages on the NPMJS.org registry. A lot are
+    experimental concepts but some are popular packages like the rethink-config module.
+  </p>
+
+  <h3><a href="/euclid">The 13 Books of Euclid</a></h3>
+  <p>
+    Using Euclidean Geometrics. I recreate The 13 Books of Euclid in
+    an interactive Javascript format.
+  </p>
+
+  <h3><a href="/number_theory">Number Theory in Javascript</a></h3>
+  <p>
+    Taking fundamental Number Theory concepts. I turn them into an
+    interactive book.
+  </p>
+
+  <h3><a href="#">Rust Blockchain Ledger</a></h3>
+  <p>
+    While no link is available. An early version of a Blockchain Ledger
+    is available on my site. I am debating however forking Grin which is
+    also Rust based for building my blockchain ledger.
+  </p>
+</div>

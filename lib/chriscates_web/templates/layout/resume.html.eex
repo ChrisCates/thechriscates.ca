@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Chris Cates">
+    <meta property="og:title" content="<%= @title %>">
+    <meta property="og:image" content="http://chriscates.ca/images/lambda.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@itschriscates" />
+    <meta name="twitter:title" content="<%= @title %>" />
+    <meta name="twitter:image" content="http://chriscates.ca/images/lambda.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/images/lambda.png">
+
+    <title><%= @title %></title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header title centered">
+        <a href="/" class="link">
+          <img src="<%= static_path(@conn, "/images/lambda.png") %>" alt="A lambda sign."/>
+          <img src="<%= static_path(@conn, "/images/me.jpg") %>" alt="A picture of me."/>
+        </a>
+        <h1>Chris Cates, Computer Scientist</h1>
+        <h2>
+          Multidisciplinary Computer Scientist experienced in Systems Level Engineering and Web Development.
+          Big fan of C++, even bigger fan of Rust.
+        </h2>
+        <div class="header-links">
+          <h3>
+            <a href="https://github.com/ChrisCates" target="_blank"><i class="fa fa-github"></i> @ChrisCates</a>
+          </h3>
+          <h3>
+            <a href="mailto:hello@chriscates.ca" target="_blank"><i class="fa fa-envelope-o"></i> hello@chriscates.ca</a>
+          </h3>
+          <h3>
+            <a href="#"><i class="fa fa-phone"></i> 1 289 952 3406</a>
+          </h3>
+        </div>
+      </header>
+
+      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+
+      <main role="main">
+        <%= render @view_module, @view_template, assigns %>
+      </main>
+
+    </div>
+  </body>
+</html>

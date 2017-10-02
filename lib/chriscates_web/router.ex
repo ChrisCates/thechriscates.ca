@@ -17,6 +17,7 @@ defmodule ChriscatesWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/resume", PageController, :resume
     get "/bits_bytes_bitwise", PageController, :bits_bytes_bitwise
     get "/emoji_hashes", PageController, :emoji_hashes
     get "/emoji_hashes_old", PageController, :emoji_hashes_old
