@@ -38,6 +38,7 @@ defmodule ChriscatesWeb.Router do
     get "/sort_binary_array", PageController, :sort_binary_array
     get "/binary_search_tree", PageController, :binary_search_tree
     get "/intelligent_graphs", PageController, :intelligent_graphs
+    get "/division_algorithm", PageController, :division_algorithm
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1

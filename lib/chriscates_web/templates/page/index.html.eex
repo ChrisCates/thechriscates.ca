@@ -15,6 +15,16 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/division_algorithm" class="link">
+    <h3>Thoughts about Division</h3>
+    <h3>October 3rd, 2017</h3>
+    <p>
+      My friend Kurt one time said that all math is just clever addition. In reality he is very right.
+      We can even prove that Division itself can be reduced to a simple subtractive problem (which is
+      addition with negative numbers when you think about it).
+    </p>
+  </a>
+
   <a href="/intelligent_graphs" class="link">
     <h3>Intelligent Graphs in Rust (Part 1)</h3>
     <h3>October 1st, 2017</h3>

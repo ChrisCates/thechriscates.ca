@@ -1,0 +1,21 @@
+<div class="content">
+  <h2>Thoughts about Division</h2>
+  <p>
+    My friend Kurt one time said that all math is just clever addition. In reality he is very right.
+    We can even prove that Division itself can be reduced to a simple subtractive problem (which is
+    addition with negative numbers when you think about it).
+  </p>
+  <h2>Division and Modulation</h2>
+  <p>
+    Division is how many times you can fit a smaller number into a bigger number.
+    If you can't fit the n into k in say n / k. Then you get a fraction. Here is a Javascript
+    implementation that I created to demonstrate both Division and Modulation.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/ce2ec4c3b05d43dd39ec80b92d04db09.js"></script>
+  <h2>What does this mean?</h2>
+  <p>
+    Personally to me, it's just super fascinating that we can dissect any axiom proof
+    into a very complex additive problem. Math is so fun and cool. The implementation
+    I showed is called "The Division Algorithm".
+  </p>
+</div>

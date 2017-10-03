@@ -91,6 +91,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "intelligent_graphs.html", title: "Intelligent Graphs in Rust (Part 1)"
   end
 
+  def division_algorithm(conn, _params) do
+    render conn, "division_algorithm.html", title: "Thoughts about Division"
+  end
+
 
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"

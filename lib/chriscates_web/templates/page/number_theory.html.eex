@@ -11,6 +11,9 @@
   <p><a href="#prime">Prime and Composite Numbers</a></p>
   <p><a href="#mersenneprime">Mersenne Prime Numbers</a></p>
   <p><a href="#primefactors">Prime Factorization</a></p>
+  <p><a href="#perfectsquare">Perfect Squares and Cubes</a></p>
+  <p><a href="#factors">Factors</a></p>
+  <p><a href="#divisionalgorithm">Division Algorithm</a></p>
 
   <div id="even_and_odd">
     <h2>Even and Odd Numbers</h2>
@@ -83,6 +86,38 @@
       the product value.
     </p>
     <script src="https://gist.github.com/ChrisCates/07552045d9d6993b114d1c6c2bbd9b46.js"></script>
+  </div>
+
+  <div id="perfectsquare">
+    <h2>Perfect Squares</h2>
+    <p>
+      Perfect Squares and Cubes are pretty straight forward. They are literally just exponential formulas.
+      2^2 = 2 * 2 which is a perfect square. 3 ^ 3 = 3 * 3 * 3 which is a perfect cube. This can be notated
+      by any number that can be multipled accordingly. Surprisingly, Perfect Squares and Prime Factors are
+      directly linked in that they can be determined through prime factorization.
+    </p>
+    <script src="https://gist.github.com/ChrisCates/d8ce8539653b3cbc11ffe8e1893df034.js"></script>
+  </div>
+
+  <div id="factors">
+    <h2>Factors</h2>
+    <p>
+      Factors are similar to Prime Factors, except we find any resultant multiple with composite
+      and prime numbers. For example the factors of 12 are: 1,2,3,4,6,12 since all those numbers
+      can multiply one or the other to create 12.
+    </p>
+    <script src="https://gist.github.com/ChrisCates/49aba3d0047430ef55ebf817d18d3a73.js"></script>
+  </div>
+
+  <div id="divisionalgorithm">
+    <h2>Division Algorithm</h2>
+    <p>
+      The division algorithm is an additive or subtractive method (and thus can be productized)
+      methodology to divide numbers. It should give some perspective on how division works.
+      Reviewing the Javascript algorithm is especially fascinating since we use recursion through
+      while loops.
+    </p>
+    <script src="https://gist.github.com/ChrisCates/ce2ec4c3b05d43dd39ec80b92d04db09.js"></script>
   </div>
 
 </div>
