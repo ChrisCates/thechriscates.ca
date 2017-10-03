@@ -27,7 +27,7 @@
           <img src="<%= static_path(@conn, "/images/lambda.png") %>" alt="A lambda sign."/>
           <img src="<%= static_path(@conn, "/images/me.jpg") %>" alt="A picture of me."/>
         </a>
-        <h1>Chris Cates, Computer Scientist</h1>
+        <h1>Chris Cates likes Software</h1>
         <h2>
           Multidisciplinary Computer Scientist experienced in Systems Level Engineering and Web Development.
           Big fan of C++, even bigger fan of Rust.
