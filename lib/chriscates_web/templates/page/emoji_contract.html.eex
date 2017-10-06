@@ -1,0 +1,28 @@
+<div class="content">
+  <h2>EmojiCoin Smart Contract</h2>
+  <p>
+    I thought there were several interesting things I implemented in my EmojiCoin
+    smart contract. Such as nested mapping for each respective emoji as well as
+    using constant logic to effiecently return balance information from the blockchain.
+  </p>
+  <h2>Implementation</h2>
+  <p>
+    The implementation shown only supports 3 emojis, from index 0 to 2. However
+    I will in future add starting amounts for each respective emoji under my
+    own personal wallet. Also note that this smart contract requires an
+    ERC-20 Compatible wallet.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/f007c9899253add50bb089049e4865d0.js"></script>
+  <h2>Mapping of a mapping</h2>
+  <p>
+    Originally I tried to do a mapping of an array and the smart contract would
+    not deploy. When I did a mapping of mapping of uint. It worked properly!
+  </p>
+  <h2>Constant return values</h2>
+  <p>
+    Assuming that the function getBalances is a constant function. It would
+    not change based on what logic you do within it. Therefore it's safe
+    to use the constant keyword to reduce gas costs when running this
+    function.
+  </p>
+</div>

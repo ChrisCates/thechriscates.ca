@@ -15,6 +15,16 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/emoji_contract" class="link">
+    <h3>EmojiCoin Smart Contract</h3>
+    <h3>October 6th, 2017</h3>
+    <p>
+      I thought there were several interesting things I implemented in my EmojiCoin
+      smart contract. Such as nested mapping for each respective emoji as well as
+      using constant logic to effiecently return balance information from the blockchain.
+    </p>
+  </a>
+
   <a href="/division_algorithm" class="link">
     <h3>Thoughts about Division</h3>
     <h3>October 3rd, 2017</h3>

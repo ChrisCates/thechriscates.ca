@@ -39,6 +39,7 @@ defmodule ChriscatesWeb.Router do
     get "/binary_search_tree", PageController, :binary_search_tree
     get "/intelligent_graphs", PageController, :intelligent_graphs
     get "/division_algorithm", PageController, :division_algorithm
+    get "/emoji_contract", PageController, :emoji_contract
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1

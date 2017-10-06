@@ -95,6 +95,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "division_algorithm.html", title: "Thoughts about Division"
   end
 
+  def emoji_contract(conn, _params) do
+    render conn, "emoji_contract.html", title: "EmojiCoin Smart Contract"
+  end
+
 
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
