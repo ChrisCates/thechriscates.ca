@@ -1,0 +1,33 @@
+<div class="content">
+  <h2>Everything you need to know about the ERC-20 Token Protocol</h2>
+  <p>
+    I thought it'd be useful to explain the smaller bits and best practices
+    when releasing ERC-20 Tokens, since people love ICOs. So let's set the
+    record straight on how to properly release these ICOs in a safe manner.
+  </p>
+  <h2>Rule #1 always use assertions where you can</h2>
+  <p>
+    In order to prevent hacking, you should assert that transaction went
+    through in your solidity code. This reduces your chance of your
+    contract being hacked and fucked over.
+  </p>
+  <h2>Rule #2 make sure your function names match the ERC-20 protocol</h2>
+  <p>
+    If you don't do this then your ERC-20 wallet won't work with an ERC-20
+    compatible wallet. You can review the protocol function names in the snippet
+    of code I post below.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/e8b65a1028f0a56924f9ff8f940c0685.js"></script>
+  <p>
+    This code should help you enforce best practices when writing your own
+    token sale. If you do however have any questions about how this stuff
+    actually should work. Email me at hello@chriscates.ca
+  </p>
+  <h2>You might not have known about the Approval parts of ERC-20 Protocol</h2>
+  <p>
+    So ERC-20 Protocol Tokens actually have an approval function where other
+    Ethereum wallets can send or receive tokens for you. It's a really
+    interesting concept since at first I thought ERC-20 was purely just
+    for token sales haha!
+  </p>
+</div>
