@@ -15,6 +15,17 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/pow" class="link">
+    <h3>How "Proof of Work" works</h3>
+    <h3>October 16th, 2017</h3>
+    <p>
+      Proof of Work is how cryptocurrencies maintain the integrity of the chain.
+      Without proof of work you can rewrite the entire chain based on a certain point.
+      However, building your own Proof of Work algorithm is surprisingly simple for a
+      baseline algorithm.
+    </p>
+  </a>
+
   <a href="/division_algorithm" class="link">
     <h3>Thoughts about Division</h3>
     <h3>October 3rd, 2017</h3>
