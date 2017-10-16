@@ -40,6 +40,8 @@ defmodule ChriscatesWeb.Router do
     get "/intelligent_graphs", PageController, :intelligent_graphs
     get "/division_algorithm", PageController, :division_algorithm
     get "/pow", PageController, :pow
+    get "/emoji_contract", PageController, :emoji_contract
+    get "/erc20", PageController, :erc20
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1

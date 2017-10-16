@@ -23,6 +23,26 @@
       Without proof of work you can rewrite the entire chain based on a certain point.
       However, building your own Proof of Work algorithm is surprisingly simple for a
       baseline algorithm.
+  </a>
+
+  <a href="/erc20" class="link">
+    <h3>Everything you need to know about the ERC-20 Token Protocol</h3>
+    <h3>October 7th, 2017</h3>
+    <p>
+      I thought it'd be useful to explain the smaller bits and best practices
+      when releasing ERC-20 Tokens, since people love ICOs. So let's set the
+      record straight on how to properly release these ICOs in a safe manner.
+    </p>
+  </a>
+
+  <a href="/emoji_contract" class="link">
+    <h3>EmojiCoin Smart Contract</h3>
+    <h3>October 6th, 2017</h3>
+    <p>
+      I thought there were several interesting things I implemented in my EmojiCoin
+      smart contract. Such as nested mapping for each respective emoji as well as
+      using constant logic to effiecently return balance information from the blockchain.
+>>>>>>> 7eae39714c600068db9d4bb35ed4223754bab2ed
     </p>
   </a>
 

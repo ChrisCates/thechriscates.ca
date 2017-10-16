@@ -99,6 +99,13 @@ defmodule ChriscatesWeb.PageController do
     render conn, "pow.html", title: "How \"Proof of Work\" works"
   end
 
+  def emoji_contract(conn, _params) do
+    render conn, "emoji_contract.html", title: "EmojiCoin Smart Contract"
+  end
+
+  def erc20(conn, _params) do
+    render conn, "erc20.html", title: "Everything you need to know about ERC-20 Token Protocol"
+  end
 
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
