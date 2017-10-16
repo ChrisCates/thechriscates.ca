@@ -1,0 +1,36 @@
+<div class="content">
+  <h2>How "Proof of Work" works</h2>
+  <p>
+    Proof of Work is how cryptocurrencies maintain the integrity of the chain.
+    Without proof of work you can rewrite the entire chain based on a certain point.
+    However, building your own Proof of Work algorithm is surprisingly simple for a
+    baseline algorithm.
+  </p>
+  <h2>Difficulty of the Algorithm</h2>
+  <p>
+    Typically the difficulty of the algorithm notates how many times a certain
+    character has to appear in the hash. For example in Bitcoin's mining algorithm
+    if it has a difficulty of 10. That means it needs to have 10 consecutive zeroes
+    in the hash. The Proof of Work algorithm were going to implement is very similar
+    to Bitcoin's PoW.
+  </p>
+  <h2>Hashing of a block</h2>
+  <p>
+    Before we can move forward we need to be able to hash the block. Here's some code
+    to hash a block in Rust.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/28922fc06bea746616be7ef74f948fb6.js"></script>
+  <h2>Proof of Work</h2>
+  <p>
+    Now here's a sample proof of work function that generates a hash that adheres to the
+    difficulty level given with a nonce! Notice how we use a while loop to show if proof
+    of the hash was found or not. Then once proof is found we break the loop.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/964f0dda9628d14d7a499092f473b3a6.js"></script>
+  <h2>Summary</h2>
+  <p>
+    The concept of proof of work is simple given the implementation I provided. However,
+    making more elegant implementations like Ethereum's PoW algorithm is difficult to do
+    and requires serious work in algorithmic implementation to achieve.
+  </p>
+</div>

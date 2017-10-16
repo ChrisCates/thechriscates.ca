@@ -14,6 +14,9 @@
   <p><a href="#perfectsquare">Perfect Squares and Cubes</a></p>
   <p><a href="#factors">Factors</a></p>
   <p><a href="#divisionalgorithm">Division Algorithm</a></p>
+  <p><a href="#euclideanalgorithm">Euclidean Algorithm</a></p>
+  <p><a href="#logarithmicbase">Logarithmic Bases</a></p>
+  <p><a href="#factorials">Factorials</a></p>
 
   <div id="even_and_odd">
     <h2>Even and Odd Numbers</h2>
@@ -118,6 +121,35 @@
       while loops.
     </p>
     <script src="https://gist.github.com/ChrisCates/ce2ec4c3b05d43dd39ec80b92d04db09.js"></script>
+  </div>
+
+  <div id="euclideanalgorithm">
+    <h2>Euclidean Algorithm</h2>
+    <p>
+      The Euclidean Algorithm is a great way to find the greatest common divisor without
+      doing factorization of each respective number. There are two versions of Euclidean's
+      algorithm. The normal and extended version.
+    </p>
+    <script src="https://gist.github.com/ChrisCates/47196ec2f6a74540ab672e1b426a84fc.js"></script>
+  </div>
+
+  <div id="logarithmicbase">
+    <h2>Logarithmic Bases</h2>
+    <p>
+      Normal natural numbers are in log base 10. Binary which only uses 1 and 0's is log base 2.
+      Hexadecimals are log base 16. The following Javascript changes regular integers to
+      different logarithmic bases.
+    </p>
+    <script src="https://gist.github.com/ChrisCates/03946c20794bdccfaf6992a7bbad9d52.js"></script>
+  </div>
+
+  <div id="factorials">
+    <h2>Factorials</h2>
+    <p>
+      Factorials are a bit different then factors in that we multiply it by each smaller number
+      then it's respective value. The concept is fairly straight forward though.
+    </p>
+    <script src="https://gist.github.com/ChrisCates/ee38c0870309c5c9312b0a8fbe7dc597.js"></script>
   </div>
 
 </div>

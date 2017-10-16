@@ -95,6 +95,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "division_algorithm.html", title: "Thoughts about Division"
   end
 
+  def pow(conn, _params) do
+    render conn, "pow.html", title: "How \"Proof of Work\" works"
+  end
+
 
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
