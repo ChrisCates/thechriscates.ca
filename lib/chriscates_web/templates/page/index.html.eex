@@ -15,6 +15,17 @@
 
   <h2>Recent ramblings and thoughts</h2>
 
+  <a href="/rsa" class="link">
+    <h3>Embeddable OpenSSL RSA Encryption in Javascript</h3>
+    <h3>November 29th, 2017</h3>
+    <p>
+      RSA Public/Private keys are the de facto security encryption method
+      for securing data. Today I'll be showing you how to encrypt and decrypt your
+      data with JSEncrypt. We'll be creating OpenSSL public and private keys
+      through terminal for JSEncrypt.
+    </p>
+  </a>
+
   <a href="/pow" class="link">
     <h3>How "Proof of Work" works</h3>
     <h3>October 16th, 2017</h3>

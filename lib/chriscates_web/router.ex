@@ -42,6 +42,7 @@ defmodule ChriscatesWeb.Router do
     get "/pow", PageController, :pow
     get "/emoji_contract", PageController, :emoji_contract
     get "/erc20", PageController, :erc20
+    get "/rsa", PageController, :rsa
 
     get "/euclid", PageController, :euclid_index
     get "/euclid/1", PageController, :euclid_1

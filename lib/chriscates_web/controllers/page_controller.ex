@@ -107,6 +107,10 @@ defmodule ChriscatesWeb.PageController do
     render conn, "erc20.html", title: "Everything you need to know about ERC-20 Token Protocol"
   end
 
+  def rsa(conn, _params) do
+    render conn, "rsa.html", title: "Embeddable OpenSSL RSA Encryption in Javascript"
+  end
+
   def euclid_index(conn, _params) do
     render conn, "euclid_index.html", title: "The 13 Books of Euclid"
   end

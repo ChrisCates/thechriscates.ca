@@ -1,0 +1,32 @@
+<div class="content">
+  <h2>Embeddable OpenSSL RSA Encryption in Javascript</h2>
+  <p>
+    RSA Public/Private keys is the de facto security encryption method
+    for securing data. Today I'll be showing you how to encrypt and decrypt your
+    data with JSEncrypt. We'll be creating OpenSSL public and private keys
+    through terminal for JSEncrypt.
+  </p>
+  <h2>Creating OpenSSL keys</h2>
+  <p>
+    Creating OpenSSL private and public keys is pretty simple. All you have to do is
+    execute these shell commands.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/45d2ae3b0758aabb629362edbe2664d2.js"></script>
+  <p>We'll be taking the contents of the public and private keys and then using them with
+    the JSEncrypt library.</p>
+  <h2>Creating a Javascript class</h2>
+  <p>
+    Let's create a Javascript class that utilizes JSEncrypt and the Public and Private Keys
+    to encrypt and decrypt data.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/aabc6602a9b7179ade068713718530d3.js"></script>
+  <h2>Utilizing the Javascript class</h2>
+  <p>
+    Now that we have a simple but elegant class to encrypt or decrypt data.
+    Let's utilize it in Node.js. Please note the Node.js implementation uses FS and is
+    not browser compatible.
+  </p>
+  <script src="https://gist.github.com/ChrisCates/247b11679ff5f9bcb2c91ef06fc91e72.js"></script>
+  <p>Note that the decrypted data will be "Hello world!" and the encrypted data will be some
+    random RSA hash.</p>
+</div>
